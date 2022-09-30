@@ -1,0 +1,71 @@
+# Administration
+---
+
+## Comments
+1. Click **Comments pending approval**
+![Comments Pending Approval](assets/comments1.png)
+2. Click **Approve** or **Delete**
+![Approve or Delete](assets/comments2.png)
+---
+		
+## Tags
+1. Click **Tags pending approval**
+![Tags Pending Approval](assets/tags1.png)
+2. Click **Approve** or **Reject**
+![Approve or Reject](assets/tags2.png)
+---
+
+## Purchase Suggestions
+1. Click **Suggestions pending approval**
+![Suggestions Pending Approval](assets/suggestions1.png)
+2. Click the **Pending** tab
+![Pending Tab](assets/suggestions2.png)
+3. Process each suggestion:
+	1. Check the boxes next to each suggestion to be processed	
+	![Check boxes](assets/suggestions3A.png)
+	2. Choose a status	
+	![Choose status](assets/suggestions3B.png)
+	3. Choose a reason	
+	![Choose reason](assets/suggestions3C.png)
+	4. Click Submit	
+	![Submit](assets/suggestions3D.png)
+---
+
+# Tools
+---	
+
+## Accessing the calendar
+1. Click **More** then **Tools** on the top navigation bar
+![alt text](assets/tools_calendar1.png)
+2. Click **Calendar** under **Additional tools**
+![alt text](assets/tools_calendar2.png)
+---
+
+## Adding holidays
+1. Click the **date** you wish to modify
+![alt text](assets/tools_calendar3.png)
+2. Fill in the form, then click **Save**
+![alt text](assets/tools_calendar4.png)
+
+> **Reminders**
+>
+> * The calendar tells Koha when you will be closed. The affects due dates and fines calculations.
+> * You can use the *To date* field to set a closing on a range of dates. This is handy for closings due to renovations or prolonged breaks.
+> * There are 4 types of holidays:
+>	* Unique: Holidays that move around each year (i.e. Thanksgiving)
+>	* Weekly: Closings that happen on the same day each week (i.e. Sundays)
+>	* Yearly: Closings that happen on the same date each year (i.e. Independence Day)
+>	* Exception: Days where you're usually closed, but are open for some reason (i.e. always open on the last Sunday in October)
+
+## Holiday Recipes
+### Weekly
+![alt text](assets/tools_calendar5.png)
+
+### Yearly
+![alt text](assets/tools_calendar6.png)
+
+### Unique
+![alt text](assets/tools_calendar7.png)
+
+### Exception
+![alt text](assets/tools_calendar8.png)	
