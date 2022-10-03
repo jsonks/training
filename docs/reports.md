@@ -1,54 +1,55 @@
-## Monthly Statistical Reports
-For monthly stats, run it for the first of the month to the first of the following month. For example, June stats would run 6/1/2019 to 7/1/2019.
+# Reports
+[***View the latest version of this documentation with screenshots in Google Drive***](https://docs.google.com/document/d/1Du85gWwxn-h1doCss4l54EynUksnk6tnAc0MxECkwW0/edit?usp=sharing)
+## Monthly stats
+1. Go to **More** > **Reports.**
+2. Choose a **Quick statistics** report.
+3. Enter any necessary parameters.
+4. Click **Run the report.**
 
-Common monthly reports can be found under **More** > **Reports** > **Quick statistics**
+> Important!
+> - For monthly stats, run the report from the <strong>first day of the month</strong> to the <strong>first day of the following month.</strong>
+> - Example: for <strong>July </strong>statistics, choose <strong>7/1/2022 </strong>to <strong>8/1/2022.</strong>
 
-![alt text](assets/reports_stats.png)
+# Saved reports
+## Getting there
+1. Go to **More**> **Reports.**
 
-### Monthly circulation - Report #2155
-Reports total circulation and renewals in a chosen date range, broken down by collection code. Excludes circulations to ILL patrons.
+## Searching
+2. Click **Use saved** or **Search** for a specific report.
+> Important!
+> - Using this <strong>Search by keyword </strong>box applies a keyword filter which may reduce how many reports you see. <strong>Clear </strong>the filter at the top to view all reports.
+3. Reports can also be located using the tabs and the search filter at the top of the table.
 
-https://staff.seknfind.org/cgi-bin/koha/reports/guided_reports.pl?reports=2155&phase=Run%20this%20report
+## Running
 
-### Item Count - Report #1946
-Reports total number of items at your library, broken down by collection code.
+4. Click **Run **at the far right of the selected report.
+5. Enter any necessary parameters and click **Run the report**.
 
-https://staff.seknfind.org/cgi-bin/koha/reports/guided_reports.pl?reports=1946&phase=Run%20this%20report
+## Downloading
 
-### Patron Count - Report #1944
+6. From the report results, click **Download** > **Comma separated text**.
+7. Downloaded CSV files can be saved or directly opened in Excel for further analysis, sorting, manipulation and to achieve cleaner print formatting.
 
-Reports total number of registerd patrons at your library, broken down by patron category.
-https://staff.seknfind.org/cgi-bin/koha/reports/guided_reports.pl?reports=1944&phase=Run%20this%20report
-
-## Custom Reports
-
-### Accessing Reports
-
-1. Click **More** then **Reports**
-![alt text](assets/reports_saved1.png)
-
-2. Click **Use saved** under **Guided reports**
-![alt text](assets/reports_saved2.png)
-
-### Searching Reports
-Use the **tabs** and the **search filter** to narrow results.
-![alt text](assets/reports_saved3.png)
-
-### Running reports
-1. Click **Run** for the chosen reports
-![alt text](assets/reports_saved4.png)
-2. Fill in any **paramenters** then click **Run the report**
-![alt text](assets/reports_saved5.png)
-
-### Downloading reports
-1. After the report has run, click **Download** then **Open Document Spreadsheet**
-![alt text](assets/reports_saved6.png)
-> Note: You may have to use Comma separated text for larger result sets.
-2. Choose **Open with Microsoft Excel** and click **OK**
-![alt text](assets/reports_saved7.png)
-3. Use Excel to format and print reports
-![alt text](assets/reports_saved8.png)
-
-## [Excel Reference Sheet](https://www.dropbox.com/s/df4y625m3r9to0y/Excel_reference.pdf?dl=0)
-![alt text](assets/reports_ref1.png)
-![alt text](assets/reports_ref2.png)
+# Excel tips
+## Formatting barcodes
+Click **Home** > Highlight the barcode column > change the **General** dropdown to **Number** then **Decrease Decimal** twice.
+## Sizing columns
+Hover the line to the right of the desired column (i.e. between A and B) and double click to auto size the column. To resize all columns at once, select all (ctrl+a)  before double clicking.
+##  Moving columns
+Right click the column header of the column to be moved and **Cut**. Right click the column header to the right of the destination and select **Insert Cut Cells**.
+##  Deleting columns
+Right click the column header of the column to be deleted and **Delete**.
+## Sorting
+### Simple
+Select a cell in the column you want to sort then click **Sort & Filter** then **Sort A to Z**.
+### Advanced
+Click **Sort & Filter** then **Custom Sort...** then **Add Level** for each column to sort by.
+## Using filters
+Click a column heading then **Sort & Filter** then **Filter** -- this adds dropdown arrows to the column headers to filter and sort data easily.
+## Finding duplicates
+Highlight the column then click **Conditional Formatting** then **Highlight Cell Rules**. Choose **Duplicate Values** then click **OK**
+## Printing recommendations
+- Change the margins to Narrow
+- Change orientation to Landscape
+- Use **Print Titles** to repeat the header row at the top of each page
+- Check **Print** under Gridlines
