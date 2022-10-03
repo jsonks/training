@@ -1,5 +1,5 @@
 ## Anatomy of a barcode
-![alt text](assets/prefixes.png)
+![barcode breakdown](assets/prefixes.PNG)
 ## Using Prefixes
 
 ### When to use these codes
