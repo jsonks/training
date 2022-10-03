@@ -1,4 +1,4 @@
-# Admin & tools
+# Administration
 [***View the latest version of this documentation with screenshots in Google Drive***](https://docs.google.com/document/d/1J0MWP24UeuPhBwmb6X5Zcj4pY8_K0ej_SK-FynJBXPQ/edit?usp=sharing)
 ## Purchase suggestions
 1. Click **your library** next to _Suggestions pending approval _on the Koha home page.
@@ -27,7 +27,7 @@
 > - Calendar closings affect due dates, the holds queue, and fine calculations.
 > - The **To date** must be used in conjunction with the **range** settings to set a closing for multiple consecutive days.
 
-### News
+## News
 1. Click **More > Tools > News**.
 2. Click **New entry**.
 3. By default, news is set to appear on your library’s date due slip.
@@ -40,25 +40,25 @@
 > - Postings of general interest can be posted to the consortial OPAC or staff client.
 > - News items will be monitored and adjusted by SEKLS staff if posting location is deemed inappropriate.
 
-### Offline circulation
-#### Download the desktop application
+## Offline circulation
+### Download the desktop application
 1. Go to **Circulation** then click **Offline circulation**.
 2. Click **Get desktop application**.
 3. Click on **KohaOfflineCirculation_Installer_X_X.exe**.
 4. Open the downloaded file and walk through the installer.
-#### Using the application
+### Using the application
 Open the **Koha Offline Circulation** app on your computer.
-##### Checking out
+#### Checking out
 1. Make sure you are on the **Issues** tab.
 2. Scan the patron’s card into the **Borrower Cardnumber** box and click **Accept**.
 3. Scan each item into the **Item Barcode** box.
 4. Click **OK often and when finished using the tool** – this saves the file.
     _Important: The first time OK is clicked in a session, you will need to choose a place to save the file - put it somewhere easy to find!_
 
-##### Checking in
+#### Checking in
 Using the tool for check-in is not recommended at this time. Hang onto incoming items and check them in once the system is back up and running.
 
-#### Uploading to Koha
+### Uploading to Koha
 1. Go to **Circulation** then click **Offline circulation**.
 2. Click **Upload offline circulation file (.koc)**.
 3. Browse to your saved file then click **Upload file**.
