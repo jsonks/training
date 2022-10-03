@@ -2,7 +2,5 @@
 
 > A storage site for SEKnFind documentation.
 
-**Work in progress**
-
 [Staff Client](https://staff.seknfind.org/)
 [Patron Catalog](https://www.seknfind.org/)
