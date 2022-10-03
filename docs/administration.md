@@ -3,18 +3,12 @@
 # Administration
 ## Purchase suggestions
 1. Click **your library** next to _Suggestions pending approval_ on the Koha home page.
-    ![Access suggestions](assets/admin/PS_1.png)
 2. Check the **Pending** tab.
-    ![View pending suggestions](assets/admin/PS_2.png)
 3. Process each suggestion.
     1. Select the suggestion(s) to process with the **checkboxes**
-        ![Select suggestions](assets/admin/PS_3.png)
     2. Scroll to the bottom and choose a **status**
-        ![Select status](assets/admin/PS_4.png)
     3. (Optional) Choose a **reason** (this is included with the rejection notice)
-        ![Choose reason](assets/admin/PS_5.png)
     4. Click **Submit**
-        ![Submit suggestion change](assets/admin/PS_6.png)
 
 > ***Reminders***
 > - Purchase suggestions should be checked at least weekly.
@@ -27,11 +21,8 @@
 ## Calendar
 ### Editing the calendar
 1. Click **More > Tools > Calendar**.
-    ![Access calendar](assets/admin/Calendar_1.png)
 2. Click on the date you wish to modify.
-    ![Pick date](assets/admin/Calendar_2.png)
 3. Give the event a title, pick the appropriate bubble, then click **Save**.
-    ![Set event and save](assets/admin/Calendar_3.png)
 > ***Reminders***
 > - The calendar tells Koha when the library will be closed.
 > - Calendar closings affect due dates, the holds queue, and fine calculations.
@@ -39,14 +30,11 @@
 
 ## News
 1. Click **More > Tools > News**.
-    ![Access news](assets/admin/News_1.png)
 2. Click **New entry**.
-    ![Add new entry](assets/admin/News_2.png)
 3. By default, news is set to appear on your library’s date due slip.
 4. Add a title, a start and an end date. The position can also be set to designate order for multiple items.
 5. Add your text to the **News** area.
 6. Click **Submit**.
-    ![Save news item](assets/admin/News_3.png)
 > ***Reminders***
 > - News items of local interest can be posted to your OPAC, staff client, or slips.
 > - Libraries often use this to advertise programming and events.
