@@ -4,7 +4,7 @@
   - [Policies](policies)
   - [Vision](vision)
   - [Confidentiality statement](confidentiality)
-- Manual
+- User Manual
   - [Checklist](checklist)
   - [Administration & Tools](administration)
   - [Patrons](patrons)
@@ -15,3 +15,7 @@
 - Helpers
   - [Library prefixes](prefixes)
   - [Trouble tracker](troubletracker)
+- Promotion
+  - [Brochures](brochures)
+  - [Flyers](flyers)
+- [User Group Archives](usergrouparchives) 
