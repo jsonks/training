@@ -5,7 +5,7 @@
 1. Search to make sure the patron does not already have an account.
 2. If not, click **Patrons** in the top navigation bar.
 3. Click **New patron** then choose the appropriate patron category.
-4. Fill in the form. Required fields are **red**.
+4. Fill in the form. Required fields are <b style="color:red">red</b>.
 5. To finish, click **Save** at the top of the screen.
 
 >***Reminders***
