@@ -1,21 +1,24 @@
-<!-- docs/_sidebar.md -->
+<!-- docs/_navbar.md -->
 
 - Documentation
   - [Policies](policies)
   - [Vision](vision)
   - [Confidentiality statement](confidentiality)
-- Manual
+- User Manual
   - [Checklist](checklist)
+  - [Administration & Tools](administration)
   - [Patrons](patrons)
   - [Circulation](circulation)
   - [Cataloging](cataloging)
-  - [Tools](tools)
-  - [Administration](administration)
   - [Reports](reports)
   - [OPAC](opac)
 - Helpers
   - [Library prefixes](prefixes)
   - [Trouble tracker](troubletracker)  
+- Promotion
+  - [Brochures](brochures)
+  - [Flyers](flyers)
+- [User Group Archives](usergrouparchives)
 - Customization
   - [SQL tips](sqltips)
   - [Item cataloging helper](additemhelper)
@@ -25,7 +28,3 @@
   - [Nacho item modal](nachoitemmodal)
   - [New item sharing](newitemsharing)
   - [Patron autocomplete toggle](patronautofilltoggle)	
-- Promotion
-  - [Brochures](brochures)
-  - [Flyers](flyers)
-- [User Group Archives](usergrouparchives)
