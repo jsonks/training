@@ -1,5 +1,6 @@
-# Administration
+# Administration & Tools
 [***View the latest version of this documentation with screenshots in Google Drive***](https://docs.google.com/document/d/1J0MWP24UeuPhBwmb6X5Zcj4pY8_K0ej_SK-FynJBXPQ/edit?usp=sharing)
+# Administration
 ## Purchase suggestions
 1. Click **your library** next to _Suggestions pending approval _on the Koha home page.
 2. Check the **Pending** tab.
