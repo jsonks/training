@@ -1,182 +1,618 @@
-## Workflow
-
-![alt text](assets/cat_workflow.png)
-
-## Searching
-
-### Finding an existing record
-Start your search with the **Search the catalog** tab of the main search bard.
-![alt text](assets/cat_search1.png)
-
-Keyword searches scan the entire record; start with a **Keyword** search on **ISBN**.
-![alt text](assets/cat_search2.png)
-
-*Don't give up after one search!* Try different search terms and filters.
-Title & Author
-![alt text](assets/cat_search3.png)
-Title with the *Title* filter selected
-![alt text](assets/cat_search4.png)
-Use *Advanced search* for a Title & Author or Title & Actor search
-![alt text](assets/cat_search5.png)
-	
-> #### SEKnFind search tips
-> - Check spelling and punctuation
-> - Try variations:
-> 	- season 1 = season one = first season
-> 	- sorcerer's = sorcerers = sorcerer s
-> - Try fewer words in long titles
-> - Add articles (a, an, the) for shorter titles
-> - Use author/actor names with short titles
-> - Use common keywords like DVD, Blu-ray, videodisc, sound recording
-
-## Matching
-The item your cataloging must match the record you're adding it to.
-![alt text](assets/cat_match1.png)
-
-When comparing results to the item in hand, pay attention to:
-> 1. Title
-> 2. Author
-> 3. Publisher
-> 4. Paging / Size / Number of discs
-> 5. ISBNs
-> 6. Copyright date
-![alt text](assets/cat_match2.png)
-
+# Cataloging
+## Cataloging workflows
+### Adding
+1. Add items to existing records
+2. Add new record via Z39.50 if no record exists, then add item
+3. Request record from SEKLS if no record exists via Z39.50
+### Deleting
+1. Delete item
+2. Delete record if no other items are attached
 ## Adding items
-When you find a record that matches your item, add your item.
+### Searching
+#### Basic search
+- Start with a keyword search on ISBN if available.
+    **Don’t give up after one search**, try different combinations of terms and filters.
+    Using multiple terms in the keyword search like _Title_ and _Author_ or _Title_ and _Actor_ can get more refined results.
+#### Advanced search
+- Click **Search** in the top navigation menu to access the Advanced search for a more exact search involving multiple indexes:
+   
+> ***Reminders***
+> - Check spelling and punctuation
+> - You can keyword search on title and author, or title and actor at the same time
+> - Try variations 
+>     - Season one = season 1 = first season = 1st season
+>     - Sorcerers = sorcerer’s
+> - You can scan various barcodes like UPCs and ISBNs to avoid entry errors
+> - Additional search tips are available in the <a href="https://docs.google.com/document/d/1kypYylxi9GYCUyD9yFhLvQsXW-DPXE3dufCfhkoA2fQ/edit#bookmark=id.5gyeca5r7br">Circulation documentation</a>
 
-1. Click **New** then **New item**
-![alt text](assets/cat_add1.png)
-2. Fill in the required fields
-![alt text](assets/cat_add2.png)
-3. Click **Add item**
+### Matching
+- Review the search results to determine if the item in hand matches an existing record.
+- Check for:
+    1. Title
+	2. Author
+	3. Publication information
+	4. Paging/size/format
+	5. ISBN
+    6. Copyright date
 
+### Adding the item
+1. Click **New** then **New item**.
+2. Fill in the **required** fields then click **Add item**.
+	
+## Editing items
+1. Click into the record detail view and find your item in the holds table.
+2. Click **Edit** in the far right column for the item you wish to update.
+3. Make any adjustments, then click **Save changes**.
+
+## Deleting items
+### Delete single item
+1. From the record detail view, click the **checkbox** next to your item.
+2. Click **Delete selected items**.
+3. Click **Delete selected items** on the next screen.
+
+### Delete multiple items
+1. Click **More** > **Tools** > **Batch item deletion**
+2. Scan your pile of books into the **barcode list box** then click **Continue**
+3. Click **Delete selected items**.
+	
 ## Adding records
-When you are unable to find a record that matches your item, you should attempt to find a record via Z39.50. If no records are available there, contact the SEKLS cataloging department for assistance.
+### Using Z39.50 Targets
+#### Search
+- When your search turns up empty, click the **Z39.50/SRU search** button.
+- Enter info into the search form - start with just ISBN and try other approaches and additional terms.
 
-### Z39.50 record import
-1. From the search results screen, click **Z39.50/SRU search**
-![alt text](assets/cat_z39import1.png)
-2. In the window that pops up, enter your search term(s)
-![alt text](assets/cat_z39import2.png)
-	> #### Z39.50 search tips
-	> - Try ISBN alone
-	> - Try Title + Author/Actor
-	> - Try UPCs and other numbers in the 'Keyword' or 'Standard ID' fields
-	> - Add *videodisc* or *dvd* or *videorecording* or *blu* in the keyword field for movies
-	> - Pre-checked targets are faster, but you can also try unchecked targets for more results
-	> - Check your spelling and punctuation
-3. Pick the best record.
-	- Review title, author, publication date, ISBN and description.
-	- You can click the **Card** link for more details, and **MARC** for full details.
-	![alt text](assets/cat_z39import3.png)
-4. Import the chosen record by clicking **Import**
-![alt text](assets/cat_z39import4.png)
-5. Add an itemtype in the **942$c** -- the record won't save without one.
-![alt text](assets/cat_z39import5.png)
+> ***Search tips***
+> - Add actors in the <strong>Author </strong> field
+> - Add <em>videodisc </em>or <em>dvd </em>or <em>videorecording </em> to the keyword field for movies
+> - Add <em>sound recording </em>or <em>sound disc </em>or <em>disc </em> to the keyword field for audiobooks
+> - Checking additional targets can provide more results (but may slow down the search)
+> - UPCs and other codes can be entered in the <strong>Keyword (any)</strong> field
 
-> #### Avoid duplicates
-> ![alt text](assets/cat_z39import6.png)
-> If you see this box appear, make sure the existing record won't work for your item by click on the linked title.
->
-> If the record matches, add your item to it. If not, return to the yellow box and choose **No, save as new record**.
+#### Choose the best record
+1. Click **Card preview** for a quick look at the record quality
+2. Evaluate the quality of the record. Click the **X** to return to the search results.
+3. Click **Import** for the chosen record.
 
-### Adding records from SHAREit
+#### Edit & save
+1. Click the **9** tab and add a Koha item type to the **942$c** field.
+2. Add any missing relevant info including paging, dimensions, series info, etc.
+3. Click **Save**, then add your item.
 
-#### Grab records from SHAREit
-1. Log in to SHAREit.
-![alt text](assets/cat_shareit1.png)
-2. Create a list.
-![alt text](assets/cat_shareit2.png)
-3. Search and add records to the list.
-![alt text](assets/cat_shareit3.png)
-4. Download the list.
-![alt text](assets/cat_shareit4.png)
+> ***Avoid duplicates***
+> - If you see a yellow box, click the <strong>title</strong> to see if the record you are adding duplicates the existing record
 
-#### Upload records to Koha
-1. Click **More**, **Tools**, **Stage MARC records for import**
-![alt text](assets/cat_marcimport1.png)
-2. Browse to your .mrc file or drag it from your downloads folder to the browse button
-![alt text](assets/cat_marcimport2.png)
-3. Click **Upload**
-4. Match these settings
-![alt text](assets/cat_marcimport3.png)
-5. Click **Stage for import**
+### Using MARC files
+1. Obtain a MARC file from an external source (SHAREit, vendor, etc.)
+2. In Koha, go to **More** > **Tools** > **Stage MARC records for import**.
+3. Browse to the file on your computer then click **Upload file**.
+4. **Default** settings should be sufficient for most situations. Adjust rules if necessary.
+5. Click **Stage for import**.
+6. Click **Manage staged records**.
+7. Click **Import this batch into the catalog**.
+8. Review the results – click on the **Record number** to quickly get to the new or matched record.
 
-#### Import records
-1. Click **Manage staged records** button.
-![alt text](assets/cat_marcimport4.png)
-2. Click **Import this batch into the catalog** button.
-![alt text](assets/cat_marcimport5.png)
-3. Wait.
-![alt text](assets/cat_marcimport6.png)
-4. A completion message and links to your new records will appear once the import is complete.
-![alt text](assets/cat_marcimport7.png)
+## Editing records
+### Getting there
+1. Search for and click into the record detail view.
+2. Click on **Edit** > **Edit record**.
+3. Locate the field needing adjustment using the numbered tabs along the top.
+4. Click **Save** when finished.
+
+### Duplicating and deleting fields
+1. Duplicate field
+2. Delete field
+3. Duplicate subfield
+4. Delete subfield
+
+### Field editors
+- Some fields have extra helpers for entering data. Click this symbol to the right of the entry box for a new window with additional guidance.
+
+## Deleting records
+- To delete an empty record, pull up the record detail view then click **Edit** > **Delete record**.
+    - _Note: Empty records are deleted at the time of item deletion in most cases._
+
+## Advanced cataloging
+### Separating combo packs
+If only a combo pack record is available, import the record then duplicate it.
+  - **Blu-ray records** should have these values in the appropriate fields:
+<table>
+  <tr>
+   <td><strong>Field</strong>
+   </td>
+   <td><strong>Subfield/position</strong>
+   </td>
+   <td><strong>Used for</strong>
+   </td>
+   <td><strong>Value</strong>
+   </td>
+  </tr>
+  <tr>
+   <td>007
+   </td>
+   <td>position 04
+   </td>
+   <td>Encoding
+   </td>
+   <td>s
+   </td>
+  </tr>
+  <tr>
+   <td>250
+   </td>
+   <td>a
+   </td>
+   <td>Edition
+   </td>
+   <td>Blu-ray edition
+   </td>
+  </tr>
+  <tr>
+   <td>300
+   </td>
+   <td>a
+   </td>
+   <td>Description - Extent
+   </td>
+   <td>1 Blu-ray videodisc (120 minutes) :
+   </td>
+  </tr>
+  <tr>
+   <td>538
+   </td>
+   <td>a
+   </td>
+   <td>System description note
+   </td>
+   <td>Blu-ray disc; requires Blu-ray player.
+   </td>
+  </tr>
+  <tr>
+   <td colspan="4" ><em>Any other occurrences of DVD should be changed to Blu-ray. Check other 3XX, 5XX, and 6XX fields.</em>
+   </td>
+  </tr>
+</table>
+
+  - **DVD records** should have these values in the appropriate fields:
+<table>
+  <tr>
+   <td><strong>Field</strong>
+   </td>
+   <td><strong>Subfield/position</strong>
+   </td>
+   <td><strong>Used for</strong>
+   </td>
+   <td><strong>Value</strong>
+   </td>
+  </tr>
+  <tr>
+   <td>007
+   </td>
+   <td>position 04
+   </td>
+   <td>Encoding
+   </td>
+   <td>v
+   </td>
+  </tr>
+  <tr>
+   <td>250
+   </td>
+   <td>a
+   </td>
+   <td>Edition
+   </td>
+   <td>[remove]
+   </td>
+  </tr>
+  <tr>
+   <td>300
+   </td>
+   <td>a
+   </td>
+   <td>Description - Extent
+   </td>
+   <td>1 videodisc (120 minutes) :
+   </td>
+  </tr>
+  <tr>
+   <td>538
+   </td>
+   <td>a
+   </td>
+   <td>System description note
+   </td>
+   <td>DVD…
+   </td>
+  </tr>
+  <tr>
+   <td colspan="4" ><em>Any other occurrences of Blu-ray should be changed to DVD. Check other 3XX, 5XX, and 6XX fields.</em>
+   </td>
+  </tr>
+</table>
+
+## Cleanup
+1. Click **Quick links** then **Clean-up reports**.
+2. Click on **Cataloging** and click **Run**.
+3. Fix any issues – a blank report means no issues exist.
 
 ## MARC reference
-Most records will use these fields and subfields:
-|    Field            |    Subfield(s)    |    What’s it for?                                   |    Which records need it?    |
-|---------------------|-------------------|-----------------------------------------------------|------------------------------|
-|    020              |    a              |    ISBN                                             |    Most                      |
-|    100              |    a              |    Author                                           |    Most                      |
-|    245              |    a, b           |    Title, subtitle                                  |    All                       |
-|    246              |    a              |    Other title                                      |    Some                      |
-|    250              |    a              |    Edition statement                                |    Some                      |
-|    260 or 264       |    a, b, c        |    Publisher info                                   |    All                       |
-|    300              |    a, b, c        |    Paging, size, etc.                               |    All                       |
-|    336, 337, 338    |                   |    RDA identifiers                                  |    Most                      |
-|    440/490          |    a, v           |    Series info                                      |    Some                      |
-|    5XX              |                   |    Notes                                            |    Some                      |
-|    6XX              |                   |    Subjects                                         |    Most                      |
-|    7XX              |                   |    Additional authors, actors, illustrator, etc.    |    Some                      |
-|    942              |    c              |    Item type                                        |    All                       |
-|    942              |    n              |    OPAC suppression                                 |    Some                      |
+### Frequently used fields and subfields
+<table>
+  <tr>
+   <td>Field
+   </td>
+   <td>Subfield(s)
+   </td>
+   <td>What’s it for?
+   </td>
+   <td>Which records need it?
+   </td>
+  </tr>
+  <tr>
+   <td>020
+   </td>
+   <td>a
+   </td>
+   <td>ISBN
+   </td>
+   <td>Most
+   </td>
+  </tr>
+  <tr>
+   <td>100
+   </td>
+   <td>a
+   </td>
+   <td>Author
+   </td>
+   <td>Most
+   </td>
+  </tr>
+  <tr>
+   <td>245
+   </td>
+   <td>a, b
+   </td>
+   <td>Title, subtitle
+   </td>
+   <td>All
+   </td>
+  </tr>
+  <tr>
+   <td>246
+   </td>
+   <td>a
+   </td>
+   <td>Other title
+   </td>
+   <td>Some
+   </td>
+  </tr>
+  <tr>
+   <td>250
+   </td>
+   <td>a
+   </td>
+   <td>Edition statement
+   </td>
+   <td>Some
+   </td>
+  </tr>
+  <tr>
+   <td>260 or 264
+   </td>
+   <td>a, b, c
+   </td>
+   <td>Publisher info
+   </td>
+   <td>All
+   </td>
+  </tr>
+  <tr>
+   <td>300
+   </td>
+   <td>a, b, c
+   </td>
+   <td>Paging, size, etc.
+   </td>
+   <td>All
+   </td>
+  </tr>
+  <tr>
+   <td>336, 337, 338
+   </td>
+   <td> 
+   </td>
+   <td>RDA identifiers
+   </td>
+   <td>Most
+   </td>
+  </tr>
+  <tr>
+   <td>440/490
+   </td>
+   <td>a, v
+   </td>
+   <td>Series info
+   </td>
+   <td>Some
+   </td>
+  </tr>
+  <tr>
+   <td>5XX
+   </td>
+   <td> 
+   </td>
+   <td>Notes
+   </td>
+   <td>Some
+   </td>
+  </tr>
+  <tr>
+   <td>6XX
+   </td>
+   <td> 
+   </td>
+   <td>Subjects
+   </td>
+   <td>Most
+   </td>
+  </tr>
+  <tr>
+   <td>7XX
+   </td>
+   <td> 
+   </td>
+   <td>Additional authors, actors, illustrator, etc.
+   </td>
+   <td>Some
+   </td>
+  </tr>
+  <tr>
+   <td>942
+   </td>
+   <td>c
+   </td>
+   <td>Item type
+   </td>
+   <td>All
+   </td>
+  </tr>
+  <tr>
+   <td>942
+   </td>
+   <td>n
+   </td>
+   <td>OPAC suppression
+   </td>
+   <td>Some
+   </td>
+  </tr>
+</table>
 
-Example record:
-|    Field            |    Subfield    |    Used for                                         |    Example                    |
-|---------------------|----------------|-----------------------------------------------------|-------------------------------|
-|    000 (Leader)     |    pos 06      |    Encodes item format                              |    a                          |
-|    000 (Leader)     |    pos 18      |    Encodes cataloging type                          |    i for RDA, a for AACR2     |
-|    020              |    a           |    ISBN                                             |    0399157336                 |
-|    100              |    a           |    Author                                           |    Coulter, Catherine         |
-|    245              |    a           |    Title                                            |    Bombshell /                |
-|    246              |    a           |    Other title                                      |    Bomb shell                 |
-|    250              |    a           |    Edition statement                                |    1st edition.               |
-|    264              |    a           |    Publisher - Place                                |    New York :                 |
-|    264              |    b           |    Publisher - Name                                 |    G.P. Putnam's Sons         |
-|    264              |    c           |    Publisher - Date                                 |    2013.                      |
-|    300              |    a           |    Description - Extent                             |    392 pages ;                |
-|    300              |    c           |    Description - Dimensions                         |    24 cm.                     |
-|    336, 337, 338    |                |    RDA identifiers                                  |                               |
-|    490              |    a           |    Series - Title                                   |    FBI series ;               |
-|    490              |    v           |    Series - Volume                                  |    bk. 17                     |
-|    5XX              |                |    Notes                                            |                               |
-|    6XX              |                |    Subjects                                         |    Murder -- Investigation    |
-|    7XX              |                |    Additional authors, actors, illustrator, etc.    |    Coulter, Allen             |
-|    942              |    c           |    Item type                                        |    Book                       |
+### Series resources
+<table>
+  <tr>
+   <td>
+    <strong>KDL What’s Next</strong>
+   </td>
+   <td>
+    <a href="http://ww2.kdl.org/libcat/whatsnext.asp">http://ww2.kdl.org/libcat/whatsnext.asp</a>
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <strong>Goodreads Series Search</strong>
+   </td>
+   <td>
+    <a href="https://cse.google.com/cse/home?cx=002960089167042347160:8rxwxouel4i&hl=en">https://cse.google.com/cse/home?cx=002960089167042347160:8rxwxouel4i&hl=en</a>
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <strong>MCPL Juvenile Series</strong>
+   </td>
+   <td>
+    <a href="https://www.mymcpl.org/books-movies-music/read/juvenile-series-and-sequels">https://www.mymcpl.org/books-movies-music/read/juvenile-series-and-sequels</a>
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <strong>Fantastic Fiction</strong>
+   </td>
+   <td>
+    <a href="https://www.fantasticfiction.com/">https://www.fantasticfiction.com/</a>
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <strong>Order of Books</strong>
+   </td>
+   <td>
+    <a href="https://www.orderofbooks.com/">https://www.orderofbooks.com/</a>
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <strong>Amazon </strong>
+   </td>
+   <td>
+    <a href="https://www.amazon.com/">https://www.amazon.com/</a>
+   </td>
+  </tr>
+</table>
 
-## Deleting
+## Cataloging by format
+### Book
 
-### Deleting single items
-1. Click **Edit** then **Edit items**
-![alt text](assets/cat_delete1.png)
-2. Find your item in the table, click **Actions** then **Delete**
-![alt text](assets/cat_delete2.png)
-
-### Deleting multiple items
-1. Click **More**, **Tools**, **Batch item deletion**
-![alt text](assets/cat_delete3.png)
-2. Scan the barcode of each item into the **barcode list** box, then click **Continue**
-![alt text](assets/cat_delete4.png)
-3. **Uncheck** any items you wish to keep
-![alt text](assets/cat_delete5.png)
-4. Click **Delete selected items**.
-![alt text](assets/cat_delete6.png)
-
-### Deleting empty records
-1. Click **Edit**, then **Delete record**
-![alt text](assets/cat_delete7.png)
-2. Click **OK**
-![alt text](assets/cat_delete8.png)
-
+<table>
+  <tr>
+   <td><strong><span style="text-decoration:underline;">Tag</span></strong>
+   </td>
+   <td><strong><span style="text-decoration:underline;">Contains</span></strong>
+   </td>
+   <td><strong><span style="text-decoration:underline;">Sample values</span></strong>
+   </td>
+  </tr>
+  <tr>
+   <td>000
+   </td>
+   <td>Leader
+   </td>
+   <td><strong>a </strong>in pos 6, <strong>Full level</strong> in pos 17, <strong>i</strong> in pos 18
+   </td>
+  </tr>
+  <tr>
+   <td>020a
+   </td>
+   <td>ISBN
+   </td>
+   <td><strong>9781400226979</strong>
+   </td>
+  </tr>
+  <tr>
+   <td>040e
+   </td>
+   <td>Description conventions
+   </td>
+   <td><strong>rda</strong>
+   </td>
+  </tr>
+  <tr>
+   <td>100a
+   </td>
+   <td>Author
+   </td>
+   <td><strong>Goff, Bob,</strong>
+   </td>
+  </tr>
+  <tr>
+   <td>245a
+   </td>
+   <td>Title
+   </td>
+   <td><strong>Undistracted :</strong>
+   </td>
+  </tr>
+  <tr>
+   <td>246a
+   </td>
+   <td>Other title
+   </td>
+   <td><strong>Un distracted</strong>
+   </td>
+  </tr>
+  <tr>
+   <td>250a
+   </td>
+   <td>Edition statement
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>264a
+   </td>
+   <td>Publisher - place
+   </td>
+   <td>Nashville, TN :
+   </td>
+  </tr>
+  <tr>
+   <td>264b
+   </td>
+   <td>Publisher - name
+   </td>
+   <td>Nelson Books, an imprint of Thomas Nelson,
+   </td>
+  </tr>
+  <tr>
+   <td>264c
+   </td>
+   <td>Publisher - date
+   </td>
+   <td>[2022].
+   </td>
+  </tr>
+  <tr>
+   <td>300a
+   </td>
+   <td>Description - extent (paging)
+   </td>
+   <td>vii, 221 pages ;
+   </td>
+  </tr>
+  <tr>
+   <td>300c
+   </td>
+   <td>Description - dimensions (size)
+   </td>
+   <td>24 cm.
+   </td>
+  </tr>
+  <tr>
+   <td>336
+   </td>
+   <td>Content type
+   </td>
+   <td>text
+   </td>
+  </tr>
+  <tr>
+   <td>337
+   </td>
+   <td>Media type
+   </td>
+   <td>unmediated
+   </td>
+  </tr>
+  <tr>
+   <td>338
+   </td>
+   <td>Carrier type
+   </td>
+   <td>volume
+   </td>
+  </tr>
+  <tr>
+   <td>490a
+   </td>
+   <td>Series - title
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>490v
+   </td>
+   <td>Series - book number
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>500+
+   </td>
+   <td>Note fields
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>600+
+   </td>
+   <td>Subject headings
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>700+
+   </td>
+   <td>Additional authors
+   </td>
+   <td>
+   </td>
+  </tr>
+</table>
 
