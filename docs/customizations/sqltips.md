@@ -1,8 +1,3 @@
----
-id: sqltips
-title: SQL Tips
-sidebar_label: SQL Tips
----
 ## Parameters
 
 Parameters allow users to make choices about what info the report retrieves.
