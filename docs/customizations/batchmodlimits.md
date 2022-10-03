@@ -1,8 +1,3 @@
----
-id: batchmodlimits
-title: Batch Modification Limiter
-sidebar_label: Batch Modification Limiter
----
 This project disables all batch modification fields except 'Lost' so that users with the batchmod permission may only use it to modify the lost status. The code uses an array to remove that restriction for select users.
 ## Screenshot of locked down tool
 ![newitemsharing](assets/batchmodlimits.png)
