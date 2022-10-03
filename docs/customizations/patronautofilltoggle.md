@@ -1,8 +1,3 @@
----
-id: patronautofilltoggle
-title: Patron Search Autofill Toggle
-sidebar_label: Patron Autofill Toggle
----
 This toggles the patron search autofill feature provided by the `CircAutocompl` syspref based on logged in library.
 
 ![patronautofilltoggle](assets/patronautofilltoggle.gif)
