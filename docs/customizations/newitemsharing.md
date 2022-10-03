@@ -1,8 +1,3 @@
----
-id: newitemsharing
-title: New Item Sharing Modifications
-sidebar_label: New Item Sharing
----
 Customizations on this page relate to our 'New Item Sharing' setup, which allows libraries to select from two 'New Item Sharing' models:
 * Immediate (Sharks):  These libraries freely share new items as soon as possible, and are able to place holds on new items as soon as they are cataloged
 * Delayed (Fish): These libraries withhold their new items for 6 weeks, and are not allowed to place holds on new items until they hit the 6-week mark
