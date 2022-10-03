@@ -1,282 +1,362 @@
-## Workflow
+# Circulation
+[***View the latest version of this documentation with screenshots in Google Drive***](https://docs.google.com/document/d/1kypYylxi9GYCUyD9yFhLvQsXW-DPXE3dufCfhkoA2fQ/edit?usp=sharing)
+## Circulation basics
+### Checking in
+1. Click **Check in** on the header search and scan your first barcode.
+2. Continue to **scan and watch** the screen! Your scanned items appear in the table below the check in box.
+3. Watch for messages and follow prompts.
+***Reminders***
+> - Checking in updates some item statuses and refreshes the last seen date.
+> - Always check in items returned by patrons and via the courier.
+> - Always check in items to trigger holds.
 
-### Incoming Holds and Transfers
-![alt text](assets/circ_wf_incoming.png)
+### Checking out
+1. Choose **Check out** on the header search and scan the patron’s card or start typing the patron’s name.
+2. **Verify** you have the correct account.
+    _Check the upper left area of the patron account to quickly see identifiable information including:_
+    - _Name_
+    - _Card number_
+    - _Address_
+    - _Phone number_
+    - _Email_
+    - _Birth date_
+    - _Current home library_
+3. **Scan** each item’s barcode into the checkout box; checkouts will appear below.
+4. **Print** a due date slip and/or exit the account when finished.
 
-### Outgoing Holds and Transfers
-![alt text](assets/circ_wf_outgoing.png)
+### Searching
+- Choose **Search the catalog** on the header search for a quick, basic search.
+- The left dropdown can be used to quickly refine your search to a certain field.
 
-## Checking in
-1. Choose **Check in** on the header bar and **scan** the barcode
-![alt text](assets/circ_checkin1.png)
-2. **Scan and look!** Your scanned items will appear in the generated table
-![alt text](assets/circ_checkin2.png)
-3. Watch for messages
-![alt text](assets/circ_checkin3.png)
+#### Search syntax modifiers
+- ***Fuzzy (Spellchecker)***
+    - **Tilde (~)** - add to the end of each word you want to spellcheck
+        - **wierd~** searches for wired, weird
+        - **liberry~** searches for library, liberty
+        - **midevil~** searches medieval
+- ***Wildcards***
+    - **Question mark (?)** - stands in for one character
+        - **c?t** searches for cat, cot, cut
+        - **c?at** searches for chat, coat
+    - **Asterisk(*)**- stands in for 0 or more characters
+        - **c*t** searches for ct, cat, cot, coat, cut, connecticut, court, cormorant, etc.
+        - **c*at** searches for cat, chat, coat, cheat, etc.
+        - **cat*** searches for cat, cats, catapult, catastrophe, caterer, etc.
+        - ***cat** searches for scat, wildcat, bobcat, etc.
+- ***Phrases***
+    - **Quotation marks (“”)** - surround a phrase to force an exact match
+        - **“Pete the cat”** only shows titles that have the exact phrase _Pete the cat_
+        - **“The Road”** only shows titles where _the_ is directly left of _road_
+- ***Negating terms***
+    - **Minus sign (-)** - add to the start of each word you want to remove
+        - **cat -dog** searches for titles with cat but not dog
+        - **fantasy -romance** searches for fantasy titles without romance in the record
 
->***Reminders***
->	- Check in returned items, those coming from the courier, and those going out on the courier
->	- Checking in updates the item status, refreshes the date last seen, puts holds in motion and completes transfers
+#### Search results
+- Results can be refined using the **facets** on the left.
+- Results can be sorted using the **Sort** button.
+- **Availability** is visible in the right column - local copies are highlighted in green.
+- Clicking a **title** opens the record detail view.
 
-## Checking out
-1. Choose **Check out** on the header bar and **scan** patron's card or search by name
-![alt text](assets/circ_checkout1.png)
-2. **Verify** you have the correct patron
-![alt text](assets/circ_checkout2.png)
-3. **Scan** each barcode into the checkout box; checkouts appear below
-![alt text](assets/circ_checkout3.png)
-4. (Optional) **Print** a due slip
-![alt text](assets/circ_checkout4.png)
+## Sharing
+### Placing Holds
+1. Search for a title.
+2. Click **Place hold** from the search results or record details.
+    _Search results - checkbox(es) then click **Place hold** button_
+    _Record detail - click **Place hold** button_
+3. Search for the patron – you can scan their card or start typing their name.
+4. Verify hold details.
+    - _Make sure the title, patron, and pickup location are correct._
+    - _Make sure **Hold next available item** is checked._
+    - _Additional options:_
+        - _Notes - appear on the holds queue_
+        - _Starts on date - to trigger hold in the future_
+        - _Expires date - automatically deletes hold after a certain period_
+5. Click **Place hold**.
 
-## Placing holds
-1. **Search**
-	1. Choose **Search the catalog** on the header bar, type your search terms, and submit
-	![alt text](assets/circ_placehold1.png)
-	2. Click the **title** for the matching record
-	3. Verify that you chose the right record; check title, format, etc.
-2. **Place hold**
-	1. Click **Place hold** button
-	![alt text](assets/circ_placehold2.png)
-	2. Search for your patron by scanning their card or typing their name
-	![alt text](assets/circ_placehold3.png)
-	3. Verify **Hold details**
-	![alt text](assets/circ_placehold4.png)
-	4. Click **Place hold**
-	![alt text](assets/circ_placehold5.png)
+### Pulling holds
+1. Click **Circulation** in the top navigation bar.
+2. Click **Holds queue**.
+3. Click **Submit**.
+4. (Optional) **Print** the queue.
+5. **Pull** the items listed.
+6. **Check in** each item to trigger the hold.
+    1. For items going to another library:
+        1. Click **Print slip, transfer, and confirm**
+        2. Place the slip in the item
+        3. Prepare the item for courier pickup
+    2. For items getting picked up at your library:
+        1. Click **Print slip and confirm**
+        2. Place the slip in the item
+        4. Notify the patron (if they do not have text or email notification set)
 
->***Reminders***
->	- Use the red X to delete a hold
->	- Use the dropdown to change the pickup location
->	- Use the suspend button to pause a hold; add a date to automatically unpause the hold later on
+### Statuses
+#### Changing an item’s status
+1. Click into the record for the item in question.
+2. Click the **barcode** of the item you’d like to modify.
+3. Determine which status to use (see next page).
+4. Choose a status from the appropriate dropdown.
+5. Click **Set status**.
 
-## Pulling holds
-1. Click **Circulation** at the top left
-	![alt text](assets/circ_pullholds1.png)
-2. Click **Holds queue** under **Holds**
-	![alt text](assets/circ_pullholds2.png)
-3. Click **Submit**
-	![alt text](assets/circ_pullholds3.png)
-4. Print the holds queue by selecting **File > Print** or pressing **Ctrl+P**
-	![alt text](assets/circ_pullholds4.png)
-5. Pull each item on the queue
-	![alt text](assets/circ_pullholds5.png)
-6. Check in each item you pulled
-	![alt text](assets/circ_pullholds6.png)
-7. For items going to *another* library
-	1. Click **Print slip, transfer, and confirm**
-		![alt text](assets/circ_pullholds7.png)
-	2. Place the slip in the item so that it is secure and easy to find
-	3. Prepare the item for courier pickup
-8. For items for *your* patrons
-	1. Click **Print slip and confirm**
-		![alt text](assets/circ_pullholds8.png)
-	2. Place the slip in the item
-	3. Notify the patron the item is waiting if they have not already received an email or text.
+#### Circulation-related statuses
+<table>
+  <tr>
+   <td colspan="5" >LOST
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <strong>Status</strong>
+   </td>
+   <td><strong>When to use</strong>
+   </td>
+   <td><strong>Clears on 
+check-in</strong>
+   </td>
+   <td><strong>Holds</strong>
+   </td>
+   <td><strong>OPAC 
+visible</strong>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>Missing</strong>
+   </td>
+   <td>
+<ul>
 
-## Holds FAQ
-- **How long should I search for an item before marking it missing?**
+<li>Can’t find item on holds queue
+<li>Item is temporarily misplaced but will likely resurface
+</li>
+</ul>
+   </td>
+   <td>Yes
+   </td>
+   <td>No
+   </td>
+   <td>No
+   </td>
+  </tr>
+  <tr>
+   <td><strong>Lost</strong>
+   </td>
+   <td>
+<ul>
 
-	One week. If you cannot find the item and other libraries have it, feel free to mark the item missing sooner to move the hold on faster.
-	
-- **What should I do if I cannot find the item, and there are other copies available on the record?**
+<li>Item likely will not resurface
 
-	Mark your copy 'Missing' and the hold will roll over to the next library.
-	
-- **What should I do if I cannot find the item and mine is the only one on the record?**
+<li>Missing items that are not found after an extended amount of time
+</li>
+</ul>
+   </td>
+   <td>Yes
+   </td>
+   <td>No
+   </td>
+   <td>No
+   </td>
+  </tr>
+  <tr>
+   <td><strong>Long overdue</strong>
+   </td>
+   <td>
+<ul>
 
-	1. Mark the item 'Missing'
-	2. Notify the library of the patron
-	3. Have that library remove the hold
-	
-- **What if a hold is placed on a local item that does not circulate in the consortium? (As in devices, special collections, fragile items, ect.)**
+<li>Automatic status applied at 99 days overdue
+</li>
+</ul>
+   </td>
+   <td>Yes
+   </td>
+   <td>No
+   </td>
+   <td>No
+   </td>
+  </tr>
+  <tr>
+   <td><strong>Damaged/Lost and charged</strong>
+   </td>
+   <td>
+<ul>
 
-	Most items of this nature should be cataloged in a way that disallows holds. If a hold does find its way on this type of item, you should:
-	1. Notify the library of the patrons
-	2. Let them know that the hold cannot be filled
-	3. Have them remove the hold
-	4. See if there's a better way to catalog the item to prevent future holds
-	
-- **When I check the item in, nothing pops up -- what's going on?**
+<li>Use to charge a patron the replacement cost of a lost or damaged item
+</li>
+</ul>
+   </td>
+   <td>Yes
+   </td>
+   <td>No
+   </td>
+   <td>No
+   </td>
+  </tr>
+  <tr>
+   <td><strong>Lost and paid for</strong>
+   </td>
+   <td>
+<ul>
 
-	A number of factors can cause this to occur:
-	- Someone from another library beat you to filling the hold -- you can check by looking at the item record to see if a copy is already in transit to fill the hold
-	- The hold has been suspended -- check by looking at the holds page for that item; the button on the far right will say 'Unsuspend'
-	- The hold is set for a future date -- check by looking at the holds page for the item; the date column will show a date in the future
-	
-- **My patron asked for an item 2 weeks ago and it's still not here -- what's going on?**
+<li>Use when a patron or library has reimbursed you for an item and you are awaiting the replacement item
+</li>
+</ul>
+   </td>
+   <td>Yes
+   </td>
+   <td>No
+   </td>
+   <td>No
+   </td>
+  </tr>
+</table>
 
-	Many factors can affect the speed a hold is filled, including the number of holds on the record and the number of copies available. Check the item record to see
-	the status of the hold:
-	- If the item is listed as available, contact the library to see what the holdup is
-	- If the item is marked missing but you weren't notified, go ahead and delete the hold and look elsewhere
-	- If the hold has become item specific and more copies are available, delete and replace the hold
-	
-## Item statuses
-1. Access the status screen by clicking the **barcode** of the item
-	![alt text](assets/circ_statuses1.png)
-2. For lost or missing items:
-	1. Choose a status from the dropdown
-	
-		![alt text](assets/circ_statuses2.png)
-		
-	2. Click **Set status**
-	
-		![alt text](assets/circ_statuses3.png)
-3. For items needed temporarily withdrawn:
-	1. Choose *Withdrawn* from the withdrawn status dropdown:
-	
-	![alt text](assets/circ_statuses4.png)
-	2. Click **Set status**
-	
-	![alt text](assets/circ_statuses5.png)
-	
-	### Lost statuses
-	
-	| Status            | When to use                                                                                                   | Clears on check-in? | Holds allowed? | OPAC Visible? |
-	|-------------------|---------------------------------------------------------------------------------------------------------------|---------------------|----------------|---------------|
-	|Claims returned    |*Do not use at this time*                                                                                      |Yes                  |No              |No             |
-	|Missing            |Use for items that are temporarily misplace; items that cannot be found on the holds queue                     |Yes                  |No              |No             |
-	|Long Overdue (Lost)|Automatically applied at 99 days overdue                                                                       |Yes                  |No              |No             |
-	|Lost               |Use for items that are unlikely to be found: items not seen during inventory, or missing for an extened period |Yes                  |No              |No             |
-	|Lost and Paid For  |Use on lost items that have been paid for and are awaiting replacement                                         |Yes                  |No              |No             |
-	
-	### Withdrawn status
-	
-	| Status            | When to use                                                                                                   | Clears on check-in? | Holds allowed? | OPAC Visible? |
-	|-------------------|---------------------------------------------------------------------------------------------------------------|---------------------|----------------|---------------|
-	|Withdrawn          |Use on items that need temporarily taken out of circulation (i.e. damaged items, items returned without parts) |No                   |No              |Yes            |
-	
-## Incoming ILL
-For items requested through SHAREit from outside the consortium, you can add temporary records to keep track.
-1. Add the temporary record
-	1. Click **SHAREit** then **Add temporary record**
-	![alt text](assets/circ_tempill1.png)
-	2. Enter author, title, format
-	![alt text](assets/circ_tempill2.png)
-	3. Click **Save**
+
+
+<table>
+  <tr>
+   <td colspan="5" >WITHDRAWN
+   </td>
+  </tr>
+  <tr>
+   <td><strong>Status</strong>
+   </td>
+   <td><strong>When to use</strong>
+   </td>
+   <td><strong>Clears on 
+check-in</strong>
+   </td>
+   <td><strong>Holds</strong>
+   </td>
+   <td><strong>OPAC 
+visible</strong>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>Withdrawn</strong>
+   </td>
+   <td>
+<ul>
+
+<li>Item needs temporarily removed from circulation (i.e. item is awaiting repair, disc is missing)
+</li>
+</ul>
+   </td>
+   <td>No
+   </td>
+   <td>No
+   </td>
+   <td>Yes
+   </td>
+  </tr>
+</table>
+
+
+
+### Frequently asked questions: Holds
+- **Q: How long should I search for an item before marking it missing?**
+    - One week. If you cannot find the item and other libraries have it, feel free to mark the item **missing** sooner.
+
+- **Q: What should I do if I cannot find the item and there are other copies available on the record?**
+    - Mark your copy **Missing** and the hold will roll over to the next library.
+
+- **Q: What should I do if I cannot find the item and mine is the only one on the record?**
+    1. Mark the item **Missing**.
+    2. Notify the library of the patron.
+    3. Have that library remove the hold.
+
+- **Q: What if a hold is placed on a local item that does not circulate in the consortium? (As in devices, special collections, fragile items, etc.)**
+    1. Notify the library of the patron.
+    2. Let them know that that specific item doesn’t circulate in the consortium.
+    3. Have them remove the hold.
+    4. Consider adjusting the cataloging to avoid holds in the future.
+
+- **Q: When I check the book in, no hold pops up. What’s going on?!**
+    - A number of factors can cause this to happen:
+        * Someone from another library has beat you to filling the hold — Check by looking at the holds page on the item record; the details column will have a barcode if the hold is filled
+        * The hold has been suspended — Check by looking at the holds page on the item record; the button on the right will say _Unsuspend_.
+        * The hold has been set for a date in the future — Check by looking at the holds page on the item record; the date column will show a future date
+
+- **Q: My patron asked for an item 2 weeks ago and it’s still not here, what gives?**
+    - Check the item record. Has someone marked it **missing** and forgotten to notify you? Is it still showing _Available_ and untouched? If a hold is more than a week old and not being filled, contact the potential lender to either have them mark their copy **missing**, or get their copy out the door.
+
+### Working with SHAREit items
+#### Borrowing
+1. Add the temporary record.
+    1. Click **SHAREit > Add temporary record**
+    2. Enter author/title/format
+    3. Click **Save**
+
 2. Add the temporary item.
-	1. Fill in:
-		1. Your initials
-		2. The call number from the item
-		3. A barcode from a barcoded card
-		4. Item type
-			* Incoming ILL for regular circ periods
-			* Incoming ILL: Shorter Term for shorter circ periods (rules may need set up for this)
-		5. Owning/Lending library
-	2. Click **Add item**
-	![alt text](assets/circ_tempill3.png)
-3. Add your hold
-	1. Place a hold on the newly created record
-		![alt text](assets/circ_tempill4.png)
-	2. Check the item in using the barcoded card
-		![alt text](assets/circ_tempill5.png)
-	3. Click **Print slip and confirm**
-		![alt text](assets/circ_tempill6.png)
-4. Check the item out to the patron when they come to pick it up
-		![alt text](assets/circ_tempill7.png)
-5. Check the item in when it is returned
-6. Delete the item and record
-	1. Click **More** then **Tools**
-			![alt text](assets/circ_tempill8.png)
-	2. Click **Batch item deletion**
-			![alt text](assets/circ_tempill9.png)
-	3. Scan each card into the **Barcode list box** then click **Continue**
-			![alt text](assets/circ_tempill10.png)
-	4. Scroll to the bottom and click **Delete selected items**
-			![alt text](assets/circ_tempill11.png)
-	
-## Item reimbursement
+    * your initials
+    * call number from the item
+    * a dummy barcode from a barcoded card
+    * item type
+        * Incoming ILL (usually 3 weeks)
+        * Incoming ILL: Shorter Term (usually 1 week, may need set up)
+    * owning library
+    * Click **Add item**
 
-### Library A: Transacting library of the lost item
-1. Charge the patron
-	1. Pull up the patron
-	
-	![alt text](assets/circ_reimburse1.png)
-	
-	2. Click the barcode of the lost item
-	
-	![alt text](assets/circ_reimburse2.png)
-	
-	3. Make sure a replacement price is present
-	
-	![alt text](assets/circ_reimburse3.png)
-			*(If there's no price, ask the lending library to fill it in before you continue)*
-			
-	4. Change the status to **Lost and Charged**
-	
-	![alt text](assets/circ_reimburse4.png)
-	
-	5. Click **Set Status**
-	
-	![alt text](assets/circ_reimburse5.png)
-	
-2. Send payment to the lending library where appropriate. Include title and barcode information.
+3. Add your hold.
+    1. **Place a hold** on the newly created record
+    2. **Check in** via the barcoded card
+    3. **Print slip and confirm**
 
-	![alt text](assets/circ_reimburse6.png)
+4. **Check out** to the patron when they come to pick It up using the barcoded card.
+5. **Check in** using the barcoded card upon return.
+6. Delete the item & record.
+    1. Click **More** then **Tools**
+    2. Click **Batch item deletion**
+    3. Scan each card into the **Barcode list box** then click **Continue**
+    4. Scroll to the bottom and click **Delete selected items**
 
+#### Lending
+1. **Pull** the requested item.
+2. **Update** the item in SHAREit.
+3. **Check out** the item to your **ILL patron** in Koha.
+4. Upon return, **check in** the item in Koha.
+5. **Update** the item in SHAREit.
 
-### Library B: Owning library of the lost item
-If you are replacing the item:
-1. Pull up the item and click edit
-	![alt text](assets/circ_reimburse7.png)
-	
-2. Change status to **Lost and Paid For**
-	![alt text](assets/circ_reimburse8.png)
-	
-3. Change the current location back to your library (if necessary)
-	![alt text](assets/circ_reimburse9.png)
-	
-4. Add a non-public note including:
-		*Who paid you
-		*When paymen was received
-		*Method of payment (i.e. materials replacement fund, check from library)
-		![alt text](assets/circ_reimburse10.png)
-5. Once the replacement copy arrives
-		1. Delete the old, lost item
-		2. Add the new item
+## Cleanup
+### Charging for lost/damaged items
+1. Pull up the patron’s account.
+2. Click the **barcode** of the item in question.
+3. Confirm a replacement price is present.
+4. Change the lost status to **Damaged/Lost and charged**.
 
-If you are not replacing the item, delete it.
+> ***Reminders***
+> - This action checks in the item and charges the replacement price.
+> - If the item does not belong to you, a notice will appear. The **owning library should be reimbursed at this point** in the process.
 
->**Note:** This process is also appliciable when your patron loses your items. You should charge the patron then decide if you want to replace or delete the missing item.
+### Returning expired holds
+1. Go to **Circulation** then **Holds awaiting pickup**.
+2. Check the **Holds waiting over…** tab.
+3. Pull the items that need returned.
+4. Choose the appropriate action for each item.
+5. **Check each item in** to trigger any holds; follow any prompts.
 
-## Replacement responsibilty
-*"As soon as an item departs a lending library, it becomes the responsibility of the borrowing library. If the item never arrives at the borrowing library, or never finds its way back to the lending library, the borrowing library is responsible for replacing the item either via reimbursement or materials replacement claim." (Policy 3.4.3)*
+### Transfers cleanup
+Run [report 2228](https://staff.seknfind.org/cgi-bin/koha/reports/guided_reports.pl?reports=2228&phase=Run%20this%20report) to see all transfers to and from your library.
 
-### Transfers from your library
-![alt text](assets/circ_responsibility1.png)
+> ***Additional Steps***
+> - Contact <a href="mailto:courier@nekls.org">courier@nekls.org</a> if you suspect the item was lost on the courier.
+> - Check your Rotation boxes.
+> - Email the SEKnFind list (<a href="mailto:koha-l@sekls.org">koha-l@sekls.org</a>) to check with all libraries in the consortium.
 
-### Transfers to your library
-![alt text](assets/circ_responsibility2.png)
-		
-## Transfers cleanup
-*“Items lost in transit to and from your library must be investigated and accounted for.“(Policy 3.4.1)*
+> ***Materials Replacement Fund Info***
+> - 8 claims may be made each year with a minimum claim limit of $5.00.
+> - Items must be missing for over 2 months, but less than 1 year.
+> - Full details and the form available here:<a href="https://www.sekls.org/material-replacement/"> https://www.sekls.org/material-replacement/</a>.
 
-Use the **Transfers to receive** report under **Circulation** > **Circulation reports** to find items in limbo
+### Replacement responsibility
+#### Transfers from your library
+- **Your item** is lost in transit to **Library A**. **<span style="text-decoration:underline;">Library A</span>** is responsible for replacement.
+- **Library A’s item** is lost when **you** are returning it to **Library A**. **<span style="text-decoration:underline;">Your library</span>** is responsible for replacement.
+- **Library Z’s item** is lost when **you** are forwarding it to **Library A** for a hold. **<span style="text-decoration:underline;">Library A</span>** is responsible for replacement.
+- **Library A’s item** is lost when **you** are returning it to **Library A** – it made an unexpected stop at **Library Z** before disappearing. 
+**<span style="text-decoration:underline;">Your library</span>** is responsible for replacement.
 
-![alt text](assets/circ_transfers.png)
-
->**Additional steps**
->
->* Post on the SEKnFind listserv (koha-l@sekls.org)
->* Check your Rotation boxes
->* Contact the courier coordinator (courier@nekls.org) if you suspect that the item was lost on the courier
-
->**Materials Replacement Fund**
->
->* 8 claims may be made each year
->* Itmes must be missing for over 2 months, but less than 1 year
->* The minimum claim is $5.00
->* A document verifying item price must be included with the claim
->* Full details are available at www.sekls.org/material-replacement
-
-## Long overdue lost cleanup
-Use **Report 1854 - Long Overdue Cleanup**
-
-![alt text](assets/circ_lodl.png)
-
-1. Location long overdue lost items
-2. Verify replacement cost is present
-3. Note when items are not yours
-4. Change the status of the item to "Lost and Charged" and click *Set Status**
-5. Bring the patron account in-line with your policies by writing off/adjusting fines
-6. For your items, replace or delete the missing item; for borrowed materials, reimburse the lending library
+#### Transfers to your library
+- **Your item** is lost in transit to **your library**. **<span style="text-decoration:underline;">Library A</span>** is responsible for replacement.
+- **Library A’s item** is lost when filling **your hold**. **<span style="text-decoration:underline;">Your library</span>** is responsible for replacement.
+- **Library Z’s item** is lost when **Library A** is forwarding it to you. **<span style="text-decoration:underline;">Your library</span>** is responsible for replacement.
+- **Library A’s item** is lost when they are filling **your hold** after making an unexpected stop at **Library Z**. 
+**<span style="text-decoration:underline;">Your library</span>** is responsible for replacement.
