@@ -3,7 +3,7 @@
 # Administration
 ## Purchase suggestions
 1. Click **your library** next to _Suggestions pending approval_ on the Koha home page.
-    ![Access suggestions](/assets/admin/PS_1.png)
+    ![Access suggestions](assets/admin/PS_1.png)
 2. Check the **Pending** tab.
 3. Process each suggestion.
     1. Select the suggestion(s) to process with the **checkboxes**
