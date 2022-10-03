@@ -38,7 +38,21 @@ img {
       mergeNavbar: true,
       maxLevel: 4,
       subMaxLevel: 2,
-	  themeColor: '#2C5AA4',
+      themeColor: '#2C5AA4',
+      plugins: [
+        function (hook) {
+          var footer = [
+            '<hr/>',
+            '<footer>',
+            '<span>Published with <a href="https://github.com/docsifyjs/docsify" target="_blank">docsify</a>.</span>',
+            '</footer>'
+          ].join('');
+
+          hook.afterEach(function (html) {
+            return html + footer;
+          });
+        }
+      ]   
     }
   </script>
   
