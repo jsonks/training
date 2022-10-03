@@ -1,9 +1,9 @@
 ![vision](assets/vision.png)
 
-## Vision
+### Vision
 The people of southeast Kansas have rapid, direct and open access to an enriched and comprehensive shared collection of library resources.
 
-## Values
+### Values
 - **Service:**
 	Administered by the Southeast Kansas Library System (SEKLS), SEKnFind is a patron-centered, high-quality, affordable and responsive regional catalog. 
 
@@ -24,7 +24,7 @@ The people of southeast Kansas have rapid, direct and open access to an enriched
 - **Flexibility:**
 	Patron service standards dictate that some SEKnFind procedures will require standardization across the system, with local control remaining a guiding tenet of SEKLS.
 
-## Responsibilities
+### Responsibilities
 - To share most materials, regardless of where the borrower is registered.
 - To fill holds each day the library is open. 
 - To maintain confidentiality of patron registration and borrowing information.
