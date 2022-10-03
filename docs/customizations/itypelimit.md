@@ -1,8 +1,3 @@
----
-id: itypelimit
-title: Item Type Limit Warning
-sidebar_label: Item Type Limit Warning
----
 ## Problem
 We use two item types for many categories so that rules can be defined for new items (i.e. Visual Media vs. New Visual Media). There's no way to enforce a single limit on these combined item types.
 
