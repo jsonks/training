@@ -5,11 +5,16 @@
 1. Click **your library** next to _Suggestions pending approval_ on the Koha home page.
     ![Access suggestions](assets/admin/PS_1.png)
 2. Check the **Pending** tab.
+    ![View pending suggestions](assets/admin/PS_2.png)
 3. Process each suggestion.
     1. Select the suggestion(s) to process with the **checkboxes**
+        ![Select suggestions](assets/admin/PS_3.png)
     2. Scroll to the bottom and choose a **status**
+        ![Select status](assets/admin/PS_4.png)
     3. (Optional) Choose a **reason** (this is included with the rejection notice)
+        ![Choose reason](assets/admin/PS_5.png)
     4. Click **Submit**
+        ![Submit suggestion change](assets/admin/PS_6.png)
 
 > ***Reminders***
 > - Purchase suggestions should be checked at least weekly.
