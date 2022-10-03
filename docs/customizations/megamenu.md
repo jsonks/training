@@ -1,8 +1,3 @@
----
-id: megamenu
-title: Megamenu
-sidebar_label: Megamenu
----
 A megamenu can divide your collection into different categories to make browsing easier. This example uses pre-formed search links based on subject headings, collection codes and shelving locations. Some categories also link to curated lists. Links are generated to sort by acquisition date and limited by copyright date so newest items are constantly at the top of the results.
 
 ## Sample
