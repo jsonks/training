@@ -27,8 +27,11 @@
 ## Calendar
 ### Editing the calendar
 1. Click **More > Tools > Calendar**.
+    ![Access calendar](assets/admin/Calendar_1.png)
 2. Click on the date you wish to modify.
+    ![Pick date](assets/admin/Calendar_2.png)
 3. Give the event a title, pick the appropriate bubble, then click **Save**.
+    ![Set event and save](assets/admin/Calendar_3.png)
 > ***Reminders***
 > - The calendar tells Koha when the library will be closed.
 > - Calendar closings affect due dates, the holds queue, and fine calculations.
@@ -36,11 +39,14 @@
 
 ## News
 1. Click **More > Tools > News**.
+    ![Access news](assets/admin/News_1.png)
 2. Click **New entry**.
+    ![Add new entry](assets/admin/News_2.png)
 3. By default, news is set to appear on your library’s date due slip.
 4. Add a title, a start and an end date. The position can also be set to designate order for multiple items.
 5. Add your text to the **News** area.
 6. Click **Submit**.
+    ![Save news item](assets/admin/News_3.png)
 > ***Reminders***
 > - News items of local interest can be posted to your OPAC, staff client, or slips.
 > - Libraries often use this to advertise programming and events.
