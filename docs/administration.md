@@ -48,7 +48,7 @@
 3. Click on **KohaOfflineCirculation_Installer_X_X.exe**.
 4. Open the downloaded file and walk through the installer.
 ### Using the application
-Open the **Koha Offline Circulation** app on your computer.
+- Open the **Koha Offline Circulation** app on your computer.
 #### Checking out
 1. Make sure you are on the **Issues** tab.
 2. Scan the patron’s card into the **Borrower Cardnumber** box and click **Accept**.
@@ -57,7 +57,7 @@ Open the **Koha Offline Circulation** app on your computer.
     _Important: The first time OK is clicked in a session, you will need to choose a place to save the file - put it somewhere easy to find!_
 
 #### Checking in
-Using the tool for check-in is not recommended at this time. Hang onto incoming items and check them in once the system is back up and running.
+- Using the tool for check-in is not recommended at this time. Hang onto incoming items and check them in once the system is back up and running.
 
 ### Uploading to Koha
 1. Go to **Circulation** then click **Offline circulation**.
