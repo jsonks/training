@@ -1,71 +1,67 @@
-# Administration
----
+# Admin & tools
+[***View the latest version of this documentation with screenshots in Google Drive***](https://docs.google.com/document/d/1J0MWP24UeuPhBwmb6X5Zcj4pY8_K0ej_SK-FynJBXPQ/edit?usp=sharing)
+## Purchase suggestions
+1. Click **your library** next to _Suggestions pending approval _on the Koha home page.
+2. Check the **Pending** tab.
+3. Process each suggestion.
+    1. Select the suggestion(s) to process with the **checkboxes**
+    2. Scroll to the bottom and choose a **status**
+    3. (Optional) Choose a **reason** (this is included with the rejection notice)
+    4. Click **Submit**
 
-## Comments
-1. Click **Comments pending approval**
-![Comments Pending Approval](assets/comments1.png)
-2. Click **Approve** or **Delete**
-![Approve or Delete](assets/comments2.png)
----
-		
-## Tags
-1. Click **Tags pending approval**
-![Tags Pending Approval](assets/tags1.png)
-2. Click **Approve** or **Reject**
-![Approve or Reject](assets/tags2.png)
----
-
-## Purchase Suggestions
-1. Click **Suggestions pending approval**
-![Suggestions Pending Approval](assets/suggestions1.png)
-2. Click the **Pending** tab
-![Pending Tab](assets/suggestions2.png)
-3. Process each suggestion:
-	1. Check the boxes next to each suggestion to be processed	
-	![Check boxes](assets/suggestions3A.png)
-	2. Choose a status	
-	![Choose status](assets/suggestions3B.png)
-	3. Choose a reason	
-	![Choose reason](assets/suggestions3C.png)
-	4. Click Submit	
-	![Submit](assets/suggestions3D.png)
----
+> ***Reminders***
+> - Purchase suggestions should be checked at least weekly.
+> - Suggestions can also be accessed via **More > Suggestions**.
+> - Suggestions can be placed via the OPAC by the logged patron, or via the staff client on behalf of the patron via the <strong>Purchase suggestions</strong> tab on their account.
+> - Notices are sent to patrons with email addresses when suggestions are changed to <em>accepted</em>, <em>rejected</em>, or <em>ordered.</em>
+> - Holds must be placed manually for the suggester once the item arrives and is cataloged.
 
 # Tools
----	
+## Calendar
+### Editing the calendar
+1. Click **More > Tools > Calendar**.
+2. Click on the date you wish to modify.
+3. Give the event a title, pick the appropriate bubble, then click **Save**.
+> ***Reminders***
+> - The calendar tells Koha when the library will be closed.
+> - Calendar closings affect due dates, the holds queue, and fine calculations.
+> - The **To date** must be used in conjunction with the **range** settings to set a closing for multiple consecutive days.
 
-## Accessing the calendar
-1. Click **More** then **Tools** on the top navigation bar
-![alt text](assets/tools_calendar1.png)
-2. Click **Calendar** under **Additional tools**
-![alt text](assets/tools_calendar2.png)
----
+### News
+1. Click **More > Tools > News**.
+2. Click **New entry**.
+3. By default, news is set to appear on your library’s date due slip.
+4. Add a title, a start and an end date. The position can also be set to designate order for multiple items.
+5. Add your text to the **News** area.
+6. Click **Submit**.
+> ***Reminders***
+> - News items of local interest can be posted to your OPAC, staff client, or slips.
+> - Libraries often use this to advertise programming and events.
+> - Postings of general interest can be posted to the consortial OPAC or staff client.
+> - News items will be monitored and adjusted by SEKLS staff if posting location is deemed inappropriate.
 
-## Adding holidays
-1. Click the **date** you wish to modify
-![alt text](assets/tools_calendar3.png)
-2. Fill in the form, then click **Save**
-![alt text](assets/tools_calendar4.png)
+### Offline circulation
+#### Download the desktop application
+1. Go to **Circulation** then click **Offline circulation**.
+2. Click **Get desktop application**.
+3. Click on **KohaOfflineCirculation_Installer_X_X.exe**.
+4. Open the downloaded file and walk through the installer.
+#### Using the application
+Open the **Koha Offline Circulation** app on your computer.
+##### Checking out
+1. Make sure you are on the **Issues** tab.
+2. Scan the patron’s card into the **Borrower Cardnumber** box and click **Accept**.
+3. Scan each item into the **Item Barcode** box.
+4. Click **OK often and when finished using the tool** – this saves the file.
+    _Important: The first time OK is clicked in a session, you will need to choose a place to save the file - put it somewhere easy to find!_
 
-> **Reminders**
->
-> * The calendar tells Koha when you will be closed. The affects due dates and fines calculations.
-> * You can use the *To date* field to set a closing on a range of dates. This is handy for closings due to renovations or prolonged breaks.
-> * There are 4 types of holidays:
->	* Unique: Holidays that move around each year (i.e. Thanksgiving)
->	* Weekly: Closings that happen on the same day each week (i.e. Sundays)
->	* Yearly: Closings that happen on the same date each year (i.e. Independence Day)
->	* Exception: Days where you're usually closed, but are open for some reason (i.e. always open on the last Sunday in October)
+##### Checking in
+Using the tool for check-in is not recommended at this time. Hang onto incoming items and check them in once the system is back up and running.
 
-## Holiday Recipes
-### Weekly
-![alt text](assets/tools_calendar5.png)
-
-### Yearly
-![alt text](assets/tools_calendar6.png)
-
-### Unique
-![alt text](assets/tools_calendar7.png)
-
-### Exception
-![alt text](assets/tools_calendar8.png)	
+#### Uploading to Koha
+1. Go to **Circulation** then click **Offline circulation**.
+2. Click **Upload offline circulation file (.koc)**.
+3. Browse to your saved file then click **Upload file**.
+4. Click **Add to offline circulation queue**.
+5. Click on **View pending offline circulation actions**.
+6. Click **Check all** then **Process**.
