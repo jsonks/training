@@ -1,4 +1,5 @@
 # Cataloging
+[***View the latest version of this documentation with screenshots in Google Drive***](https://docs.google.com/document/d/1uYqp9O2_pOosaEcbBJsP5ZOIYYQNfPAmyMlXQsdNEfE/edit?usp=sharing)
 ## Cataloging workflows
 ### Adding
 1. Add items to existing records
