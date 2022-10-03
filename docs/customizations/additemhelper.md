@@ -1,8 +1,3 @@
----
-id: additemhelper
-title: Item Cataloging Helper
-sidebar_label: Item Cataloging Helper
----
 This project streamlines the addition of items by rearranging the 'Add Item' fields into a more logical order and prefilling collection code when a shelf location is selected.
 ## Sorted Fields
 ![additemhelper](assets/addItemHelper1.png)
