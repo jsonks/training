@@ -2,7 +2,7 @@
 [***View the latest version of this documentation with screenshots in Google Drive***](https://docs.google.com/document/d/1J0MWP24UeuPhBwmb6X5Zcj4pY8_K0ej_SK-FynJBXPQ/edit?usp=sharing)
 # Administration
 ## Purchase suggestions
-1. Click **your library** next to _Suggestions pending approval _on the Koha home page.
+1. Click **your library** next to _Suggestions pending approval_ on the Koha home page.
 2. Check the **Pending** tab.
 3. Process each suggestion.
     1. Select the suggestion(s) to process with the **checkboxes**
