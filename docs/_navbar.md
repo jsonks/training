@@ -2,7 +2,7 @@
 
 - Documentation
   - [Policies](policies)
-  - [Vision](vision)
+  - [Vision, values & responsibilities](vision)
   - [Confidentiality statement](confidentiality)
 - User Manual
   - [Checklist](checklist)
