@@ -1,8 +1,8 @@
 <!-- docs/_sidebar.md -->
 
 - Documentation
-  - [Policies](policies)
   - [Vision, values & responsibilities](vision)
+  - [Policies](policies)
   - [Confidentiality statement](confidentiality)
 - User Manual
   - [Checklist](checklist)
