@@ -1,8 +1,3 @@
----
-id: nachoitemmodal
-title: Nacho Item Modal
-sidebar_label: Nacho Item Modal
----
 _Created and tested in Koha 17.05.09 in Firefox_
 
 ## Problem
