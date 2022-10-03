@@ -6,7 +6,7 @@
   - [Confidentiality statement](confidentiality)
 - User Manual
   - [Checklist](checklist)
-  - [Administration & Tools](administration)
+  - [Administration & tools](administration)
   - [Patrons](patrons)
   - [Circulation](circulation)
   - [Cataloging](cataloging)
