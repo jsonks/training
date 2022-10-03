@@ -1,8 +1,3 @@
----
-id: illitypedefaults
-title: ILL Item Type Defaults
-sidebar_label: ILL Item Type Defaults
----
 We use the fast add framework for temporary ILL records of items from outside the consortium. The framework is setup with an authorized value list in the 300$a which determines format.
 Some libraries use a secondary ILL item type on certain formats so they circulate for a shorter amount of time. For those libraries, this assigns the secondary item type to the 942$c when specific formats are chosen. 
 
