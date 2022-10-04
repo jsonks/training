@@ -1,7 +1,7 @@
 # Cataloging
 [***View the latest version of this documentation with screenshots in Google Drive***](https://docs.google.com/document/d/1uYqp9O2_pOosaEcbBJsP5ZOIYYQNfPAmyMlXQsdNEfE/edit?usp=sharing)
 ## Cataloging workflows
-
+---
 ### Adding
 1. Add items to existing records
 2. Add new record via Z39.50 if no record exists, then add item
@@ -12,7 +12,7 @@
 2. Delete record if no other items are attached
 
 ## Adding items
-
+---
 ### Searching
 
 #### Basic search
@@ -49,6 +49,7 @@ Check for:
 2. Fill in the **required** fields then click **Add item**.
 	
 ## Editing items
+---
 1. Click into the record detail view and find your item in the holds table.
 2. Click **Edit** in the far right column for the item you wish to update.
 3. Make any adjustments, then click **Save changes**.
@@ -65,6 +66,7 @@ Check for:
 3. Click **Delete selected items**.
 	
 ## Adding records
+---
 ### Using Z39.50 Targets
 #### Search
 When your search turns up empty, click the **Z39.50/SRU search** button.
@@ -102,6 +104,7 @@ Enter info into the search form - start with just ISBN and try other approaches 
 8. Review the results – click on the **Record number** to quickly get to the new or matched record.
 
 ## Editing records
+---
 ### Getting there
 1. Search for and click into the record detail view.
 2. Click on **Edit** > **Edit record**.
@@ -118,10 +121,12 @@ Enter info into the search form - start with just ISBN and try other approaches 
 Some fields have extra helpers for entering data. Click this symbol to the right of the entry box for a new window with additional guidance.
 
 ## Deleting records
+---
 To delete an empty record, pull up the record detail view then click **Edit** > **Delete record**.
   - _Note: Empty records are deleted at the time of item deletion in most cases._
 
 ## Advanced cataloging
+---
 ### Separating combo packs
 If only a combo pack record is available, import the record then duplicate it.
 - **Blu-ray records** should have these values in the appropriate fields:
@@ -241,11 +246,13 @@ If only a combo pack record is available, import the record then duplicate it.
 </table>
 
 ## Cleanup
+---
 1. Click **Quick links** then **Clean-up reports**.
 2. Click on **Cataloging** and click **Run**.
 3. Fix any issues – a blank report means no issues exist.
 
 ## MARC reference
+---
 ### Frequently used fields and subfields
 <table>
   <tr>
@@ -453,6 +460,7 @@ If only a combo pack record is available, import the record then duplicate it.
 </table>
 
 ## Cataloging by format
+---
 ### Book
 
 <table>
