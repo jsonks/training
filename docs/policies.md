@@ -34,23 +34,11 @@ Libraries that no longer wish to conform to the policies and responsibilities of
 
     Each patron will have only one account within the SEKnFind Consortium. No new account is to be created for existing patrons.
 
-
     The home library will be determined by the patron’s library of first registration.
-
-
-     
-
 
     The patron may choose to change his home library at any time. This most commonly occurs when the patron moves, or the patron wants to pick up their holds at a different library by default.
 
-
-     
-
-
     A new physical card may be issued for the existing patron account.
-
-
-
 
 2. Exceptions
 
