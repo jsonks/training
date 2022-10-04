@@ -1,13 +1,16 @@
 # Cataloging
 [***View the latest version of this documentation with screenshots in Google Drive***](https://docs.google.com/document/d/1uYqp9O2_pOosaEcbBJsP5ZOIYYQNfPAmyMlXQsdNEfE/edit?usp=sharing)
 ## Cataloging workflows
+
 ### Adding
 1. Add items to existing records
 2. Add new record via Z39.50 if no record exists, then add item
 3. Request record from SEKLS if no record exists via Z39.50
+
 ### Deleting
 1. Delete item
 2. Delete record if no other items are attached
+
 ## Adding items
 ### Searching
 #### Basic search
