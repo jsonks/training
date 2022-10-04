@@ -22,7 +22,7 @@
 
 ## Running
 
-4. Click **Run **at the far right of the selected report.
+4. Click **Run** at the far right of the selected report.
 5. Enter any necessary parameters and click **Run the report**.
 
 ## Downloading
@@ -49,7 +49,7 @@ Click a column heading then **Sort & Filter** then **Filter** -- this adds dropd
 ## Finding duplicates
 Highlight the column then click **Conditional Formatting** then **Highlight Cell Rules**. Choose **Duplicate Values** then click **OK**
 ## Printing recommendations
-- Change the margins to Narrow
-- Change orientation to Landscape
+- Change the margins to **Narrow**
+- Change orientation to **Landscape**
 - Use **Print Titles** to repeat the header row at the top of each page
 - Check **Print** under Gridlines
