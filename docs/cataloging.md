@@ -12,13 +12,18 @@
 2. Delete record if no other items are attached
 
 ## Adding items
+
 ### Searching
+
 #### Basic search
-- Start with a keyword search on ISBN if available.
-    **Don’t give up after one search**, try different combinations of terms and filters.
-    Using multiple terms in the keyword search like _Title_ and _Author_ or _Title_ and _Actor_ can get more refined results.
+Start with a keyword search on ISBN if available.
+
+**Don’t give up after one search**, try different combinations of terms and filters.
+
+Using multiple terms in the keyword search like _Title_ and _Author_ or _Title_ and _Actor_ can get more refined results.
+    
 #### Advanced search
-- Click **Search** in the top navigation menu to access the Advanced search for a more exact search involving multiple indexes:
+Click **Search** in the top navigation menu to access the Advanced search for a more exact search involving multiple indexes:
    
 > ***Reminders***
 > - Check spelling and punctuation
@@ -30,14 +35,14 @@
 > - Additional search tips are available in the <a href="https://docs.google.com/document/d/1kypYylxi9GYCUyD9yFhLvQsXW-DPXE3dufCfhkoA2fQ/edit#bookmark=id.5gyeca5r7br">Circulation documentation</a>
 
 ### Matching
-- Review the search results to determine if the item in hand matches an existing record.
-- Check for:
-    1. Title
-	2. Author
-	3. Publication information
-	4. Paging/size/format
-	5. ISBN
-    6. Copyright date
+Review the search results to determine if the item in hand matches an existing record.
+Check for:
+  1. Title
+  2. Author
+  3. Publication information
+  4. Paging/size/format
+  5. ISBN
+  6. Copyright date
 
 ### Adding the item
 1. Click **New** then **New item**.
@@ -62,8 +67,9 @@
 ## Adding records
 ### Using Z39.50 Targets
 #### Search
-- When your search turns up empty, click the **Z39.50/SRU search** button.
-- Enter info into the search form - start with just ISBN and try other approaches and additional terms.
+When your search turns up empty, click the **Z39.50/SRU search** button.
+
+Enter info into the search form - start with just ISBN and try other approaches and additional terms.
 
 > ***Search tips***
 > - Add actors in the <strong>Author </strong> field
@@ -109,16 +115,16 @@
 4. Delete subfield
 
 ### Field editors
-- Some fields have extra helpers for entering data. Click this symbol to the right of the entry box for a new window with additional guidance.
+Some fields have extra helpers for entering data. Click this symbol to the right of the entry box for a new window with additional guidance.
 
 ## Deleting records
-- To delete an empty record, pull up the record detail view then click **Edit** > **Delete record**.
-    - _Note: Empty records are deleted at the time of item deletion in most cases._
+To delete an empty record, pull up the record detail view then click **Edit** > **Delete record**.
+  - _Note: Empty records are deleted at the time of item deletion in most cases._
 
 ## Advanced cataloging
 ### Separating combo packs
 If only a combo pack record is available, import the record then duplicate it.
-  - **Blu-ray records** should have these values in the appropriate fields:
+- **Blu-ray records** should have these values in the appropriate fields:
 <table>
   <tr>
    <td><strong>Field</strong>
@@ -176,7 +182,7 @@ If only a combo pack record is available, import the record then duplicate it.
   </tr>
 </table>
 
-  - **DVD records** should have these values in the appropriate fields:
+- **DVD records** should have these values in the appropriate fields:
 <table>
   <tr>
    <td><strong>Field</strong>
