@@ -164,7 +164,6 @@ Libraries that no longer wish to conform to the policies and responsibilities of
 
     Local circulation rules further constrain circulation and fine behavior to conform to local policy for each individual library, and may be limited to patron type and or item type. Note that rules _must_ be established prior to implementing a new item type to cause alternate circulation behavior.
 
-
     Commonly used local settings:
 
     1. Number of checkouts allowed
