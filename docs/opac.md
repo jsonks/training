@@ -28,7 +28,7 @@ Checkouts are listed on the **Checked out** tab.
 #### Relatives’ checkouts
 - If the account has linked relative account(s) and the relative account(s) allows it via privacy settings, a tab appears to show the **Relatives’ checkouts**.
 
-#### Relatives’ checkouts
+#### Relatives’ charges
 - If the account has linked relative account(s) and the relative account(s) allows it via privacy settings, a tab appears to show the **Relatives’ charges**.
 
 #### Clubs
