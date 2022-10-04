@@ -55,6 +55,7 @@ Check for:
 3. Make any adjustments, then click **Save changes**.
 
 ## Deleting items
+---
 ### Delete single item
 1. From the record detail view, click the **checkbox** next to your item.
 2. Click **Delete selected items**.
