@@ -38,11 +38,11 @@
     - **Question mark (?)** - stands in for one character
         - **c?t** searches for cat, cot, cut
         - **c?at** searches for chat, coat
-    - **Asterisk(*)**- stands in for 0 or more characters
-        - **c*t** searches for ct, cat, cot, coat, cut, connecticut, court, cormorant, etc.
-        - **c*at** searches for cat, chat, coat, cheat, etc.
-        - **cat*** searches for cat, cats, catapult, catastrophe, caterer, etc.
-        - ***cat** searches for scat, wildcat, bobcat, etc.
+    - **Asterisk(\*)**- stands in for 0 or more characters
+        - **c\*t** searches for ct, cat, cot, coat, cut, connecticut, court, cormorant, etc.
+        - **c\*at** searches for cat, chat, coat, cheat, etc.
+        - **cat\*** searches for cat, cats, catapult, catastrophe, caterer, etc.
+        - **\*cat** searches for scat, wildcat, bobcat, etc.
 - ***Phrases***
     - **Quotation marks (“”)** - surround a phrase to force an exact match
         - **“Pete the cat”** only shows titles that have the exact phrase _Pete the cat_
