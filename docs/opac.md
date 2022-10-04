@@ -18,12 +18,12 @@
 
 #### Checkouts & renewals
 Checkouts are listed on the **Checked out** tab.
-- Items eligible for renewal can be renewed in this tab via the **Renew** link in the **Renew **column, the checkboxes in the renew column and the **Renew selected** button, or the **Renew all** button.
+- Items eligible for renewal can be renewed in this tab via the **Renew** link in the **Renew** column, the checkboxes in the renew column and the **Renew selected** button, or the **Renew all** button.
 - A successful renewal will show a green **Renewed!** message.
 - Past due items get their own **Overdues** tab.
 
 #### Fines & charges
-- If the account has fines, a **Charges **tab is visible. Clicking on the amount owed at the right will give more detail.
+- If the account has fines, a **Charges** tab is visible. Clicking on the amount owed at the right will give more detail.
  
 #### Relatives’ checkouts
 - If the account has linked relative account(s) and the relative account(s) allows it via privacy settings, a tab appears to show the **Relatives’ checkouts**.
@@ -81,7 +81,7 @@ Checkouts are listed on the **Checked out** tab.
 - Access via **Your privacy** in the left menu of **Your summary**.
 - All accounts have the option to control how much data is retained.
 - All accounts also have the ability to immediately delete their entire checkout history.
-    - **Important. **This is a** <span style="text-decoration.underline;">permanent</span>** deletion that cannot be undone.
+    - **Important. **This is a permanent** deletion that cannot be undone.
 - Child accounts have the additional options, when linked with a parent account, to allow or disallow the parent to see their checkouts and fines.
 
 
@@ -147,9 +147,9 @@ Checkouts are listed on the **Checked out** tab.
 4. Click **Confirm hold**.
 
 > ***Reminders***
-> You must be logged in to place holds.
-> You can click the title to see more detail as well as item info, read-alike recommendations, and more.
-> Visual material formats are further distinguished by icon.
+> - You must be logged in to place holds.
+> - You can click the title to see more detail as well as item info, read-alike recommendations, and more.
+> - Visual material formats are further distinguished by icon.
 
 ### Managing holds
 1. Navigate to **Your account summary**.
