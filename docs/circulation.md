@@ -5,7 +5,8 @@
 1. Click **Check in** on the header search and scan your first barcode.
 2. Continue to **scan and watch** the screen! Your scanned items appear in the table below the check in box.
 3. Watch for messages and follow prompts.
-***Reminders***
+
+> ***Reminders***
 > - Checking in updates some item statuses and refreshes the last seen date.
 > - Always check in items returned by patrons and via the courier.
 > - Always check in items to trigger holds.
