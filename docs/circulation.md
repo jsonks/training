@@ -61,10 +61,10 @@
 ## Sharing
 
 ### Incoming workflow
-![Workflow for incoming items](assets/cataloging/InILL-Workflow.png)
+![Workflow for incoming items](assets/circulation/InILL-Workflow.png)
 
 ### Outgoing workflow
-![Workflow for outgoing items](assets/cataloging/OutILL-Workflow.png)
+![Workflow for outgoing items](assets/circulation/OutILL-Workflow.png)
 
 ### Placing holds
 1. Search for a title.
@@ -343,7 +343,7 @@ visible</strong>
 ### Transfers cleanup
 Run [report 2228](https://staff.seknfind.org/cgi-bin/koha/reports/guided_reports.pl?reports=2228&phase=Run%20this%20report) to see all transfers to and from your library.
 
-![Transfers cleanup workflow chart](assets/cataloging/Circ_TransfersCleanup.png)
+![Transfers cleanup workflow chart](assets/circulation/Circ_TransfersCleanup.png)
 
 > ***Additional Steps***
 > - Contact <a href="mailto:courier@nekls.org">courier@nekls.org</a> if you suspect the item was lost on the courier.
