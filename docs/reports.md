@@ -6,7 +6,7 @@
 3. Enter any necessary parameters.
 4. Click **Run the report.**
 
-> Important!
+> ***Important***
 > - For monthly stats, run the report from the <strong>first day of the month</strong> to the <strong>first day of the following month.</strong>
 > - Example: for <strong>July </strong>statistics, choose <strong>7/1/2022 </strong>to <strong>8/1/2022.</strong>
 
@@ -16,17 +16,16 @@
 
 ## Searching
 2. Click **Use saved** or **Search** for a specific report.
-> Important!
-> - Using this <strong>Search by keyword </strong>box applies a keyword filter which may reduce how many reports you see. <strong>Clear </strong>the filter at the top to view all reports.
 3. Reports can also be located using the tabs and the search filter at the top of the table.
 
-## Running
+> ***Important***
+> - Using this <strong>Search by keyword </strong>box applies a keyword filter which may reduce how many reports you see. <strong>Clear </strong>the filter at the top to view all reports.
 
+## Running
 4. Click **Run** at the far right of the selected report.
 5. Enter any necessary parameters and click **Run the report**.
 
 ## Downloading
-
 6. From the report results, click **Download** > **Comma separated text**.
 7. Downloaded CSV files can be saved or directly opened in Excel for further analysis, sorting, manipulation and to achieve cleaner print formatting.
 
