@@ -361,12 +361,10 @@ Run [report 2228](https://staff.seknfind.org/cgi-bin/koha/reports/guided_reports
 - **Your item** is lost in transit to **Library A**. **<span style="text-decoration:underline;">Library A</span>** is responsible for replacement.
 - **Library A’s item** is lost when **you** are returning it to **Library A**. **<span style="text-decoration:underline;">Your library</span>** is responsible for replacement.
 - **Library Z’s item** is lost when **you** are forwarding it to **Library A** for a hold. **<span style="text-decoration:underline;">Library A</span>** is responsible for replacement.
-- **Library A’s item** is lost when **you** are returning it to **Library A** – it made an unexpected stop at **Library Z** before disappearing. 
-**<span style="text-decoration:underline;">Your library</span>** is responsible for replacement.
+- **Library A’s item** is lost when **you** are returning it to **Library A** – it made an unexpected stop at **Library Z** before disappearing. **<span style="text-decoration:underline;">Your library</span>** is responsible for replacement.
 
 #### Transfers to your library
 - **Your item** is lost in transit to **your library**. **<span style="text-decoration:underline;">Library A</span>** is responsible for replacement.
 - **Library A’s item** is lost when filling **your hold**. **<span style="text-decoration:underline;">Your library</span>** is responsible for replacement.
 - **Library Z’s item** is lost when **Library A** is forwarding it to you. **<span style="text-decoration:underline;">Your library</span>** is responsible for replacement.
-- **Library A’s item** is lost when they are filling **your hold** after making an unexpected stop at **Library Z**. 
-**<span style="text-decoration:underline;">Your library</span>** is responsible for replacement.
+- **Library A’s item** is lost when they are filling **your hold** after making an unexpected stop at **Library Z**. **<span style="text-decoration:underline;">Your library</span>** is responsible for replacement.
