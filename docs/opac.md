@@ -14,7 +14,7 @@
 
 ### Your summary
 #### Getting there
-- Once logged in, you can click your **name** in the upper right then **Your account** at any time to get to your summary.
+Once logged in, you can click your **name** in the upper right then **Your account** at any time to get to your summary.
 
 #### Checkouts & renewals
 Checkouts are listed on the **Checked out** tab.
@@ -23,19 +23,19 @@ Checkouts are listed on the **Checked out** tab.
 - Past due items get their own **Overdues** tab.
 
 #### Fines & charges
-- If the account has fines, a **Charges** tab is visible. Clicking on the amount owed at the right will give more detail.
+If the account has fines, a **Charges** tab is visible. Clicking on the amount owed at the right will give more detail.
  
 #### Relatives’ checkouts
-- If the account has linked relative account(s) and the relative account(s) allows it via privacy settings, a tab appears to show the **Relatives’ checkouts**.
+If the account has linked relative account(s) and the relative account(s) allows it via privacy settings, a tab appears to show the **Relatives’ checkouts**.
 
 #### Relatives’ charges
-- If the account has linked relative account(s) and the relative account(s) allows it via privacy settings, a tab appears to show the **Relatives’ charges**.
+If the account has linked relative account(s) and the relative account(s) allows it via privacy settings, a tab appears to show the **Relatives’ charges**.
 
 #### Clubs
-- View and modify current club enrollments via the **Clubs** tab.
+View and modify current club enrollments via the **Clubs** tab.
 
 #### Holds
-- View and manage holds via the **Holds** tab.
+View and manage holds via the **Holds** tab.
 
 #### Digital account integrations
 - **Cloud Library Account** checkouts can be viewed and managed if an active state library card number is registered to the account.
@@ -58,8 +58,7 @@ Checkouts are listed on the **Checked out** tab.
 3. Use the **checkboxes** (and dropdown for advance notice) to choose how messages should be sent.
 4. Click **Submit changes** to update settings.
 
-> ***Reminders***
-> - Available notices include. 
+> ***Available notices include:***
 >   - Item due. sent the day an item is due
 >   - Advance notice. sent X days before the item is due
 >   - Hold filled. sent once a hold is triggered
@@ -68,27 +67,26 @@ Checkouts are listed on the **Checked out** tab.
 
 ### Histories
 #### Search history
-- Access via **Your search history** in the left menu of **Your summary**.
+Access via **Your search history** in the left menu of **Your summary**.
 - Searches are only saved when you are logged in. Searches from the current and previous sessions are visible.
 - Searches may be _permanently_ removed using the checkboxes and **Remove selected searches** buttons.
 
 #### Reading history
-- Access via **Your checkout history** in the left menu of **Your summary**.
+Access via **Your checkout history** in the left menu of **Your summary**.
 - Checkout history shows your past and current checkouts.
 - Control over what information is kept is handled in the **Your privacy** area of your account.
 
 ### Privacy
-- Access via **Your privacy** in the left menu of **Your summary**.
+Access via **Your privacy** in the left menu of **Your summary**.
 - All accounts have the option to control how much data is retained.
 - All accounts also have the ability to immediately delete their entire checkout history.
-    - **Important. **This is a permanent** deletion that cannot be undone.
+    - **Important:** This is a permanent deletion that cannot be undone.
 - Child accounts have the additional options, when linked with a parent account, to allow or disallow the parent to see their checkouts and fines.
-
 
 ### Purchase suggestions
 1. At the bottom of your search results, click **Make a purchase suggestion**.
 2. Fill out the form.
-3. Click **Submit your suggestion**
+3. Click **Submit your suggestion**.
 
 > ***Reminders***
 > - You must be logged in to make purchase suggestions.
@@ -97,9 +95,9 @@ Checkouts are listed on the **Checked out** tab.
 > - Email status updates are sent if you have a valid email address on your account.
 
 ### Lists
-- Lists can be created and managed by clicking **Your lists** in the left menu of **Your summary**.
-- Items can be added to lists from search results.
-- Items can also be added to lists from the record detail page.
+Lists can be created and managed by clicking **Your lists** in the left menu of **Your summary**.
+Items can be added to lists from search results.
+Items can also be added to lists from the record detail page.
 
 ### User-generated content
 #### Comments / reviews
@@ -110,24 +108,24 @@ Checkouts are listed on the **Checked out** tab.
 5. Your comment will appear following librarian approval.
 
 #### Star ratings
-- Star ratings can be added via your checkout history.
-- Star ratings can also be added via the record detail view.
+Star ratings can be added via your checkout history.
+Star ratings can also be added via the record detail view.
 
 #### Tags
-- Tags can be added from the record detail view. 
-    - _Note. Tags must be approved by a librarian before they appear in the catalog._
+Tags can be added from the record detail view. 
+  _Note. Tags must be approved by a librarian before they appear in the catalog._
 
 ## Using the catalog
 ### Searching
 #### Basic search
-- Type your search term(s) and hit enter or click **Go**.
+Type your search term(s) and hit enter or click **Go**.
 
 #### Advanced search
-- Click **Advanced search** below the **Go** button.
-- Toggle filters, dropdowns, and facets to refine your search.
+Click **Advanced search** below the **Go** button.
+Toggle filters, dropdowns, and facets to refine your search.
 
 #### New item browse
-- Hover over the orange box in the upper left of the screen to discover newly added items in different categories and genres.
+Hover over the orange box in the upper left of the screen to discover newly added items in different categories and genres.
 
 > ***Search Tips***
 > - Try excluding words to get more results.
@@ -161,7 +159,7 @@ Checkouts are listed on the **Checked out** tab.
 
 ### Readers’ advisory
 #### Reading suggestions
-- Click into the record detail view for an item and scroll down to see integrated content from NoveList including similar titles, authors and series to find something new to read. _This is not available for every title._
+Click into the record detail view for an item and scroll down to see integrated content from NoveList including similar titles, authors and series to find something new to read. _This is not available for every title._
 
 #### NextReads newsletters
-- Click the **Subscribe** button in the lower right of the page to subscribe to newsletters and be alerted about new titles on various topics and genres.
+Click the **Subscribe** button in the lower right of the page to subscribe to newsletters and be alerted about new titles on various topics and genres.
