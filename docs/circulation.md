@@ -59,7 +59,14 @@
 - Clicking a **title** opens the record detail view.
 
 ## Sharing
-### Placing Holds
+
+### Incoming workflow
+![Workflow for incoming items](assets/cataloging/InILL-Workflow.png)
+
+### Outgoing workflow
+![Workflow for outgoing items](assets/cataloging/OutILL-Workflow.png)
+
+### Placing holds
 1. Search for a title.
 2. Click **Place hold** from the search results or record details.
     _Search results - checkbox(es) then click **Place hold** button_
@@ -335,6 +342,8 @@ visible</strong>
 
 ### Transfers cleanup
 Run [report 2228](https://staff.seknfind.org/cgi-bin/koha/reports/guided_reports.pl?reports=2228&phase=Run%20this%20report) to see all transfers to and from your library.
+
+![Transfers cleanup workflow chart](assets/cataloging/Circ_TransfersCleanup.png)
 
 > ***Additional Steps***
 > - Contact <a href="mailto:courier@nekls.org">courier@nekls.org</a> if you suspect the item was lost on the courier.
