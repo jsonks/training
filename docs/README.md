@@ -8,7 +8,8 @@
 <iframe loading="lazy" frameborder="0" style="border: 0;" allowfullscreen="" src="https://www.google.com/maps/d/embed?mid=1rq0mdfxwHHpEp8IU9WIRxoEOPwY" width="250" height="500"></iframe>
 
 ## Member Libraries
-<ul>
+<ol>
+<li>Allen CC Library</li>  
 <li>Altamont</li>
 <li>Altoona</li>
 <li>Arma</li>
@@ -61,4 +62,4 @@
 <li>Walnut</li>
 <li>Weir</li>
 <li>Yates Center</li>
-</ul>
+</ol>
